@@ -24,6 +24,7 @@ source digital-standards-virtual-env/bin/activate
 ## Run the following commands within the virtual env
 
 pip install jupyter
+pip install plotly==4.12.0
 jupyter notebook
 ```
 
