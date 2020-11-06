@@ -25,7 +25,13 @@ source digital-standards-virtual-env/bin/activate
 
 pip install jupyter
 pip install plotly==4.12.0
+pip install numpy
 jupyter notebook
 ```
 
 ## To Launch Notebook
+
+cd notebook
+source digital-standards-virtual-env/bin/activate
+jupyter notebook
+
