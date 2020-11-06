@@ -31,7 +31,9 @@ jupyter notebook
 
 ## To Launch Notebook
 
+```
 cd notebook
 source digital-standards-virtual-env/bin/activate
 jupyter notebook
+```
 
