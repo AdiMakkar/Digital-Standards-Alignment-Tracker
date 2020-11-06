@@ -1,6 +1,12 @@
 <html>
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
 </head>
 
 <body>
@@ -17,6 +23,20 @@
         <p>This page is currently a prototype, and more information will be added as work progresses.</p>
         <hr />
 
+        <p>This data is generated through analyzing submitted concept cases. Work is underway to improving our data collection 
+            and reporting to remove subjectivity as much as possible. For the time being, this is the data at hand, and we
+            are actively working to improve the quality and quantity of said data.
+        </p>
+
+        <p>A concept case was judged whether or not it aligned with a Digital Standard. This means if the concept case
+             identified that that it had met a given Digital Standard, but was judged not to have adequately
+            met the standard, then it will result as having not aligned in the data below.</p>
+
+        <p>Work is presently underway to provide further guidance regarding what would be considered to align
+            with a Digital Standard. In the spirit of working in the open, the work presently underway can be viewed 
+            <a href="https://docs.google.com/document/d/14pOf4rkhmlY0-DDQQGSgc3oLd4A6nZsbraFpRozC1k4/edit?usp=sharing">here</a>.
+        </p>
+        <hr />
 
         <h2>Alignment Totals</h2>
         <embed type="text/html" src="notebook/charts/alignment-totals.html" class="large-graph">
@@ -89,6 +109,17 @@
     </div>
 </body>
 
+<footer>
+    <div class="row">
+        <div class="col-6">
+            <p>Author: <a href="https://github.com/jaysonmc/">Jayson McIntosh</a></p>
+        </div>
+        <div class="col-6">
+            <p>Code is available on <a href="https://github.com/jaysonmc/Digital-Standards-Alignment-Tracker">GitHub</a></p>
+        </div>
+    </div>
+</footer>
+
 <style>
     .large-graph {
         height: 650px;
@@ -97,6 +128,16 @@
     .small-graph {
         height: 400px;
         width: 100%;
+    }
+    footer {
+        padding-top: 15px;
+        padding-left: 25;
+        width: 100%;
+        background-color: #e3e3e3;
+        height: 75px;
+    }
+    footer p {
+        margin-left: 35%;
     }
 </style>
 </html>
