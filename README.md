@@ -36,4 +36,6 @@ cd notebook
 source digital-standards-virtual-env/bin/activate
 jupyter notebook
 ```
+## To Understand the Procedure Followed for Attaining the Averages
 
+The susbets of all the years involved (2020 only at the moment) were aggregated on the basis of the survey's years' and further on using the exisitng categories 'MOST_POSITIVE_OR_LEAST_NEGATIVE_AVERAGE' and 'MOST_NEGATIVE_OR_LEAST_POSITIVE_AVERAGE' averages were calculated. 
