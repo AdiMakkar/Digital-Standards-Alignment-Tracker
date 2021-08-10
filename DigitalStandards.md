@@ -1,4 +1,4 @@
-#Getting Started
+# Getting Started
 
 1. Ensure you have Python3 downloaded. 
 2. Ensure you have Python Pandas Library used for statiscal and analysis. 
