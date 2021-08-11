@@ -1,7 +1,7 @@
 # Getting Started
 
 1. Ensure you have Python3 downloaded. 
-2. Ensure you have Python Pandas Library used for statiscal and analysis. 
+2. Ensure you have Python Pandas Library used for statiscal analysis. 
 3. Ensure the csv file being used is saved on your desktop for easier access. 
 
 # Development 
@@ -14,7 +14,7 @@ df = pd.read_csv (r'file path.csv')
 print (df)
 ```
 
-The following is used to find the avaerage in regards to the questions to be dealt with,
+The following is used to find the average in regards to the questions to be dealt with,
 
 ```
 mean_n = df['ColumnTitleToBeAveraged'].mean() where n is the first column number 
