@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv (r'Digital Standards 2020.csv')
+df = pd.read_csv (r'Averages of the Questions Related to Digital Standards 2020.csv')
 print (df)
 
 #Averages of Questions
