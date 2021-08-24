@@ -1,7 +1,7 @@
 #AutomationDebug.py
-#Example of Year 2019: Subsets 2, 3, 4
-#Applied to csv files with dtypes as objects and 
-#further used by converting the required to floats and performing operations
+#Specifically used for large subsets
+#Used when dtypes differ and can be analyzed by converting the required
+#into floats from objects and the operations being performed
 
 import pandas as pd
 
