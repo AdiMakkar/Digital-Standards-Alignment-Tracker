@@ -1,0 +1,178 @@
+----------------------------------------------------------------------------------------------
+Bitmaps - complete list of bitmaps
+----------------------------------------------------------------------------------------------
+BITMAPS
+Source_Editor
+Button_Tiny_Solo
+Button_Tiny_Add
+
+----------------------------------------------------------------------------------------------
+Fonts - bitmap name, num chars, char list, char widths
+----------------------------------------------------------------------------------------------
+FONTS
+
+----------------------------------------------------------------------------------------------
+True Type Fonts - name referring to png and txt file (in BMFont format)
+----------------------------------------------------------------------------------------------
+TRUETYPEFONTS
+
+----------------------------------------------------------------------------------------------
+Parameters - complete list of other required params eg. colours
+----------------------------------------------------------------------------------------------
+PARAMETERS
+BackgroundImage	0
+FontSelectorWidth 8
+SelectorButtonWidth 24
+SelectorButtonWidthSmall 15
+RadioButIrregIndex 2
+RadioButIrregOffset 130
+EnvLineR 20
+EnvLineG 20
+EnvLineB 255
+EnvLineA 255
+SelLineR 200
+SelLineG 200
+SelLineB 255
+SelLineA 255
+SyncLineR 100
+SyncLineG 100
+SyncLineB 255
+SyncLineA 255
+WarpMarkR 50
+WarpMarkG 255
+WarpMarkB 50
+WarpMarkA 255
+RadioButtonSpace 102
+VUMeterR 234
+VUMeterG 234
+VUMeterB 234
+VUMeterA 100
+VUMeterClipR 255
+VUMeterClipG 32
+VUMeterClipB 32
+VUMeterClipA 100
+SelectR 0
+SelectG 163
+SelectB 204
+SelectA 255
+LineR 23
+LineG 30
+LineB 38
+LineA 255
+BackgroundR     0
+BackgroundG     17
+BackgroundB     26
+BackgroundA     255
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image				Page	x1	y1	x2	y2
+----------------------------------------------------------------------------------------------
+PAGES
+EditPage		SkinnableView		Source_Main_Editor.txt		Main	244	40	1150	750
+AdditivePage		SkinnableView		Source_Additive_Editor.txt	Main	244	40	1150	750
+SpectralPage		SkinnableView		Source_Spectral_Editor.txt	Main	244	40	1150	750
+
+GroupPanelAlways	SkinnableView		Source_Main_Group_Panel_Always.txt	NoAdd	0	0	250	30
+GroupPanelRoundRobin	SkinnableView		Source_Main_Group_Panel_RoundRobin.txt	NoAdd	0	0	250	30
+GroupPanelController	SkinnableView		Source_Main_Group_Panel_Controller.txt	NoAdd	0	0	250	60
+GroupPanelRandomRR	SkinnableView		Source_Main_Group_Panel_RandomRR.txt	NoAdd	0	0	250	30
+GroupPanelKeyswitch	SkinnableView		Source_Main_Group_Panel_Keyswitch.txt	NoAdd	0	0	250	60
+
+GroupEditPanel		SkinnableView		Source_Main_Group_Edit.txt	NoAdd	0	0	160 	20
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image			Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+CONTROLS
+GuiSourceGroupPanel	GroupPanel		Background_Black	Main	17	240	236	380
+
+GuiPageCur		RadioButton		Button_Group_Tiny_C	Main	148	15	275	4
+
+GuiSourceMenu		ZoneNameSelector	Button_Dropdown		Main	51	48	155
+GuiSourceOn		OnButton		Button_Small		Main	17	48
+
+GuiSourceEditing	OnButton		Button_Close		Main	1116	15
+
+GuiSourcePageSolo	OnButton		Button_Tiny_Solo	Main	208	48
+
+GuiZoneCur		Selector		Button_Dropdown		Main	17	434	210
+ZnKey			DragSelector		Button_DragSelect	Main 	17	473	40
+ZnLoopMd		Selector		Button_Dropdown		Main	127	473	100
+
+ZnLoKey			DragSelector		Button_DragSelect	Main 	17	586	42
+ZnHiKey			DragSelector		Button_DragSelect	Main 	73	586	42
+ZnLoVel			DragSelector		Button_DragSelect	Main 	129	586	42
+ZnHiVel			DragSelector		Button_DragSelect	Main 	185	586	42
+
+ZnFadMod		Selector		Button_Dropdown		Main	73	617	99
+
+ZnFadeL			DragSelector		Button_DragSelect	Main 	17	656	42
+ZnFadeR			DragSelector		Button_DragSelect	Main 	73	656	42
+ZnFadeB			DragSelector		Button_DragSelect	Main 	129	656	42
+ZnFadeT			DragSelector		Button_DragSelect	Main 	185	656	42
+
+GuiAdditiveSync		Selector		Button_Dropdown		Main	30	950	132
+
+GuiSourceEditMode	RadioButton		Button_Group_Large_C	Main	261	15	800	3
+
+GuiGroupAdd		ButtonMenu		Button_Tiny_Add		Main	70	86
+GuiGroupList		GroupSelectList		Background_Black	Main	17	120	236	216
+
+GuiZoneSelectMIDI	OnButton		Button_Large		Main	148	401
+GuiZoneAdd		KickButton		Button_Tiny_Add		Main	70	401
+GuiZoneRootLearn	OnButton		Button_Medium		Main	65	473
+
+ZnVolume		Knob			Knob_45x45px_2c_0-100	Main	37	506
+ZnTunCrs		Knob			Knob_45x45px_2c_0-100	Main	97	506
+ZnPan			Knob			Knob_45x45px_2c_0-100	Main	157	506
+
+----------------------------------------------------------------------------------------------
+Labels- 
+String			Enabled			Font			Page	x1	y1
+----------------------------------------------------------------------------------------------
+LABELS
+Main			1			Font_Button_Label	Main	286	18
+Additive		1			Font_Button_Label	Main	359	18
+Spectral		1			Font_Button_Label	Main	439	18
+
+A			1			Font_Button_Label	Main	152	18
+B			1			Font_Button_Label	Main	172	18
+C			1			Font_Button_Label	Main	192	18
+D			1			Font_Button_Label	Main	211	18
+
+SOURCE			1			Font_Label_Section	Main	16	16
+On			1			Font_Button_Label	Main	22	51
+
+GROUP			1			Font_Label_Section	Main	16	90
+Starts			1			Font_Label_Small_Grey	Main	17	227
+
+S			1			Font_Button_Label	Main	212	51
+_			1			Font_Button_Label	Main	74	89
+
+ZONE			1			Font_Label_Section	Main	16	404
+
+Key			1			Font_Label_Small_Grey	Main	17	461
+Loop_Mode		1			Font_Label_Small_Grey	Main	128	461
+Lo_Key			1			Font_Label_Small_Grey	Main	17	574
+Hi_Key			1			Font_Label_Small_Grey	Main	73	574
+Lo_Vel			1			Font_Label_Small_Grey	Main	129	574
+Hi_Vel			1			Font_Label_Small_Grey	Main	185	574
+Zone_Fade		1			Font_Label_Small_Grey	Main	17	620
+Left			1			Font_Label_Small_Grey	Main	17	644
+Right			1			Font_Label_Small_Grey	Main	73	644
+Bottom			1			Font_Label_Small_Grey	Main	129	644
+Top			1			Font_Label_Small_Grey	Main	185	644
+
+Select_MIDI		1			Font_Button_Label	Main	157	404
+_			1			Font_Button_Label	Main	74	404
+Vol           		1			Font_Label_Small	ZnVolume	47	553
+Tune			1			Font_Label_Small	ZnTunCrs	114	553
+Pan			1			Font_Label_Small	ZnPan	177	553
+
+Trig			1			Font_Label_Small_Grey	Main	121	105
+Fade			1			Font_Label_Small_Grey	Main	171	105
+Poly			1			Font_Label_Small_Grey	Main	201	105
+
+Learn			1			Font_Button_Label	Main	76	476
+
+---------------------------------------------------------------------------------------

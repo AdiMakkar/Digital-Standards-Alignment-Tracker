@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>name</key>
+		<string>Gen Region Parameters</string>
+		<key>description</key>
+		<string>Parameters for the currently generated position.</string>
+	</dict>
+<key>outputAttributes</key>
+	<dict>
+		<key>outputComplexity</key>
+		<dict>
+			<key>description</key>
+			<string>Complexity</string>
+			<key>name</key>
+			<string>complexity</string>
+		</dict>
+		<key>outputIntensity</key>
+		<dict>
+			<key>description</key>
+			<string>Intensity</string>
+			<key>name</key>
+			<string>intensity</string>
+		</dict>		
+		<key>outputAccentVariation</key>
+		<dict>
+			<key>description</key>
+			<string>Accent Variation</string>
+			<key>name</key>
+			<string>acc variation</string>
+		</dict>
+		<key>outputKitpieceFocus</key>
+		<dict>
+			<key>description</key>
+			<string>Kitpiece Focus</string>
+			<key>name</key>
+			<string>kitpiece focus</string>
+		</dict>				
+		<key>outputSystemVariation</key>
+		<dict>
+			<key>description</key>
+			<string>System Variation</string>
+			<key>name</key>
+			<string>system variation</string>
+		</dict>				
+		<key>outputPercInstrument</key>
+		<dict>
+			<key>description</key>
+			<string>Percussion Instrument</string>
+			<key>name</key>
+			<string>perc instrument</string>
+		</dict>	
+		<key>outputPercVariation</key>
+		<dict>
+			<key>description</key>
+			<string>Percussion Variation</string>
+			<key>name</key>
+			<string>perc variation</string>
+		</dict>
+		<key>outputFills</key>
+		<dict>
+			<key>description</key>
+			<string>Fills</string>
+			<key>name</key>
+			<string>fills</string>
+		</dict>	
+		<key>outputSwing</key>
+		<dict>
+			<key>description</key>
+			<string>Swing</string>
+			<key>name</key>
+			<string>swing</string>
+		</dict>
+		<key>outputSwingType</key>
+		<dict>
+			<key>description</key>
+			<string>SwingType</string>
+			<key>name</key>
+			<string>swingType</string>
+		</dict>
+		<key>outputGroove</key>
+		<dict>
+			<key>description</key>
+			<string>Groove</string>
+			<key>name</key>
+			<string>groove</string>
+		</dict>													
+		<key>outputDynamics</key>
+		<dict>
+			<key>description</key>
+			<string>Dynamics</string>
+			<key>name</key>
+			<string>dynamics</string>
+		</dict>															
+		<key>outputHiHat</key>
+		<dict>
+			<key>description</key>
+			<string>HiHat</string>
+			<key>name</key>
+			<string>hiHat</string>
+		</dict>
+		<key>outputHiHatAutomatic</key>
+		<dict>
+			<key>description</key>
+			<string>HiHatAutomatic</string>
+			<key>name</key>
+			<string>hiHat auto</string>
+		</dict>															
+		<key>outputKickEnabled</key>
+		<dict>
+			<key>description</key>
+			<string>KickEnabled</string>
+			<key>name</key>
+			<string>kick enabled</string>
+		</dict>
+		<key>outputSnareEnabled</key>
+		<dict>
+			<key>description</key>
+			<string>KickEnabled</string>
+			<key>name</key>
+			<string>snare enabled</string>
+		</dict>
+		<key>outputSystemsEnabled</key>
+		<dict>
+			<key>description</key>
+			<string>SystemsEnabled</string>
+			<key>name</key>
+			<string>systems enabled</string>
+		</dict>		
+	</dict>
+</dict>
+</plist>

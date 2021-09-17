@@ -1,0 +1,14 @@
+EffectRack = 0
+EffectSlot = 0
+EffectType = 20
+ExtraData = n/a
+AutomatableParams = 7
+NonAutomatableParams = 1
+PhaRate = 0.6219
+PhaDepth = 0.6803
+PhaFreq = 0.7166
+PhaFeedb = 0.8693
+PhaSpred = 0.1390
+PhaMix = 1.0000
+PhaPoles = 0.5863
+PhaSync = 1.000

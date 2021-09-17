@@ -1,0 +1,75 @@
+----------------------------------------------------------------------------------------------
+Bitmaps - complete list of bitmaps
+----------------------------------------------------------------------------------------------
+BITMAPS
+Source_Formant
+
+----------------------------------------------------------------------------------------------
+Fonts - bitmap name, num chars, char list, char widths
+----------------------------------------------------------------------------------------------
+FONTS
+
+----------------------------------------------------------------------------------------------
+True Type Fonts - name referring to png and txt file (in BMFont format)
+----------------------------------------------------------------------------------------------
+TRUETYPEFONTS
+
+----------------------------------------------------------------------------------------------
+Parameters - complete list of other required params eg. colours
+----------------------------------------------------------------------------------------------
+PARAMETERS
+BackgroundImage	0
+
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image			Page	x1	y1	x2	y2
+----------------------------------------------------------------------------------------------
+PAGES
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image			Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+CONTROLS
+SFmtAOn			OnButton	Button_Small			Main	15	24
+
+SFmtASh			Knob		Knob_45x45px_2c_50-0-50	Main	110	10
+SFmtAKT			Knob		Knob_45x45px_2c_0-100	Main	160	10
+SFmtASi			Knob		Knob_45x45px_2c_50-0-50	Main	230	10
+SFmtACe			Knob		Knob_45x45px_2c_0-100	Main	280	10
+SFmtASm			Knob		Knob_45x45px_2c_50-0-50	Main	350	10
+
+SFmtSOn			OnButton	Button_Small		Main	15	124
+SFmtSSh			Knob		Knob_45x45px_2c_50-0-50	Main	60	110
+SFmtSSi			Knob		Knob_45x45px_2c_50-0-50	Main	110	110
+SFmtSCe			Knob		Knob_45x45px_2c_0-100	Main	160	110
+SFmtSSe			Knob		Knob_45x45px_2c_0-100	Main	210	110
+
+SFmtSS1			ScrollSelector	Button_Dropdown		Main	300	87	107
+SFmtSS2			ScrollSelector	Button_Dropdown		Main	300	112	107
+SFmtSS3			ScrollSelector	Button_Dropdown		Main	300	137	107
+SFmtSS4			ScrollSelector	Button_Dropdown		Main	300	162	107
+
+
+----------------------------------------------------------------------------------------------
+String			Enabled			Font			Page	x1	y1
+----------------------------------------------------------------------------------------------
+LABELS
+ANALYZED		1			Font_Label_Section	Main	15	3
+SYNTHESIZED		1			Font_Label_Section	Main	15	88
+
+On			1			Font_Button_Label	Main	20	27
+Shift			1			Font_Label_Small	SFmtASh	65	58
+-			1			Font_Label_Small	Main	157	56
+KTrack			1			Font_Label_Small	SFmtAKT 114	58
+Size			1			Font_Label_Small	SFmtASi	155	56
+-			1			Font_Label_Small	Main	277	56
+Center			1			Font_Label_Small	SFmtACe	195	58
+Smooth			1			Font_Label_Small	SFmtASm	260	58
+
+On			1			Font_Button_Label	Main	20	127
+Shift			1			Font_Label_Small	SFmtSSh	65	145
+Size			1			Font_Label_Small	SFmtSSi	65	145
+Center			1			Font_Label_Small	SFmtSCe	65	145
+Select			1			Font_Label_Small	SFmtSSe	65	145
+
+---------------------------------------------------------------------------------------

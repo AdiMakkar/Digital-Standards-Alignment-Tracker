@@ -1,0 +1,124 @@
+----------------------------------------------------------------------------------------------
+Bitmaps - complete list of bitmaps
+----------------------------------------------------------------------------------------------
+BITMAPS
+Source_Additive_Editor
+
+----------------------------------------------------------------------------------------------
+Fonts - bitmap name, num chars, char list, char widths
+----------------------------------------------------------------------------------------------
+FONTS
+
+----------------------------------------------------------------------------------------------
+True Type Fonts - name referring to png and txt file (in BMFont format)
+----------------------------------------------------------------------------------------------
+TRUETYPEFONTS
+
+----------------------------------------------------------------------------------------------
+Parameters - complete list of other required params eg. colours
+----------------------------------------------------------------------------------------------
+PARAMETERS
+BackgroundImage	0
+FontSelectorWidth 8
+
+EnvLineR 125
+EnvLineG 167
+EnvLineB 217
+EnvLineA 180
+
+SelLineR 0
+SelLineG 163
+SelLineB 204
+SelLineA 255
+
+ActParR 32
+ActParG 44
+ActParB 48
+ActParA 255
+
+SyncLineR 100
+SyncLineG 100
+SyncLineB 255
+SyncLineA 255
+
+WarpMarkR 95
+WarpMarkG 100
+WarpMarkB 105
+WarpMarkA 255
+
+LoopMarkR 190
+LoopMarkG 160
+LoopMarkB 40
+LoopMarkA 255
+
+BreakPointR 100
+BreakPointG 100
+BreakPointB 100
+BreakPointA 255
+
+SelBreakPointR 255
+SelBreakPointG 255
+SelBreakPointB 255
+SelBreakPointA 255
+
+TimeMarkerR 255
+TimeMarkerG 255
+TimeMarkerB 255
+TimeMarkerA 200
+
+EnvEditorBorderLeft 1
+EnvEditorBorderRight 1
+EnvEditorBorderTop 2
+EnvEditorBorderBottom 1
+
+----------------------------------------------------------------------------------------------------------------------
+Pages - 
+ControlName	ControlType	Image		Page	x1	y1	x2	y2
+----------------------------------------------------------------------------------------------------------------------
+PAGES
+
+
+----------------------------------------------------------------------------------------------------------------------
+Controls - 
+ControlName			ControlType		Image				Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------------------------------
+CONTROLS
+GuiAdditiveHarmonicEditor 	AdditiveHarmonicEditor 	Background_Black		Main	18	45	888	338
+
+GuiAdditiveOverallMode 	OnButton		Button_Medium			Main	17	8
+GuiAdditivePage			RadioButton		Button_Group_Big_C		Main	80 	8	400	4
+
+GuiAdditiveIntervals		FileSelector		Button_Dropdown			Main	363	8	87
+GuiAdditiveBrightnessMode	Selector		Button_Dropdown			Main	464	8	110
+GuiAdditivePartialSnap		OnButton		Button_Large			Main	588	8
+GuiAdditiveFile			ButtonMenu		Button_Large			Main	690	8	
+GuiAdditivePartialFile		KickButton		Button_Medium			Main	775	8	
+GuiAdditivePartialClear	KickButton		Button_Medium			Main	835	8	
+
+SAdDet				KnobNoMod		Knob_45x45px_1c_0-100		Main	20	346
+GuiAdditiveBreakpoint		Selector		Button_Dropdown			Main	100	372	110
+GuiAdditiveEnvelopeEditor	EnvelopeAdditiveEditor	Background_Black		Main	18	419	888	628
+GuiAdditivePalette		AdditivePalette		palette2.png			Main	0	0	0	0
+
+----------------------------------------------------------------------------------------------------------------------
+Labels- 
+String			Enabled		Font			Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------------------------------
+LABELS
+Snap_Pitch		1		Font_Button_Label	Main	597	12
+Overall			1		Font_Button_Label	Main	24	11
+Breakpoint		1		Font_Button_Label	Main	701	11
+Image			1		Font_Button_Label	Main	785	11
+Clear			1		Font_Button_Label	Main	847	11
+
+Vol			1		Font_Button_Label	Main	104	11
+Tune			1		Font_Button_Label	Main	168	11
+Pan			1		Font_Button_Label	Main	238	11
+Phase			1		Font_Button_Label	Main	300	11
+
+Mode			1		Font_Label_Small_Grey	Main	363	29
+Shape			1		Font_Label_Small_Grey	Main	464	29
+Detail			1		Font_Label_Small	SAdDet	27	398
+Mode			1		Font_Label_Small_Grey	Main	100	393
+
+---------------------------------------------------------------------------------------

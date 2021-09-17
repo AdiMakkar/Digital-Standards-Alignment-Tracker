@@ -1,0 +1,122 @@
+----------------------------------------------------------------------------------------------
+Bitmaps - complete list of bitmaps
+----------------------------------------------------------------------------------------------
+BITMAPS
+Source_Main_Editor
+Button_Tiny_Playback
+
+----------------------------------------------------------------------------------------------
+Fonts - bitmap name, num chars, char list, char widths
+----------------------------------------------------------------------------------------------
+FONTS
+
+----------------------------------------------------------------------------------------------
+True Type Fonts - name referring to png and txt file (in BMFont format)
+----------------------------------------------------------------------------------------------
+TRUETYPEFONTS
+
+----------------------------------------------------------------------------------------------
+Parameters - complete list of other required params eg. colours
+----------------------------------------------------------------------------------------------
+PARAMETERS
+BackgroundImage	0
+FontSelectorWidth 8
+
+EnvLineR 125
+EnvLineG 167
+EnvLineB 217
+EnvLineA 180
+
+SelLineR 0
+SelLineG 184
+SelLineB 230
+SelLineA 255
+
+SyncLineR 10
+SyncLineG 61
+SyncLineB 87
+SyncLineA 255
+
+WarpMarkR 95
+WarpMarkG 100
+WarpMarkB 105
+WarpMarkA 255
+
+LoopMarkR 190
+LoopMarkG 160
+LoopMarkB 40
+LoopMarkA 255
+
+BreakPointR 100
+BreakPointG 100
+BreakPointB 100
+BreakPointA 255
+
+SelBreakPointR 0
+SelBreakPointG 181
+SelBreakPointB 226
+SelBreakPointA 255
+
+TimeMarkerR 255
+TimeMarkerG 255
+TimeMarkerB 255
+TimeMarkerA 200
+
+EnvEditorBorderLeft 1
+EnvEditorBorderRight 1
+EnvEditorBorderTop 2
+EnvEditorBorderBottom 1
+
+KeymapRegionR 90
+KeymapRegionG 130
+KeymapRegionB 160
+KeymapRegionA 128
+
+KeymapRegionSelR 143
+KeymapRegionSelG 206
+KeymapRegionSelB 255
+KeymapRegionSelA 153
+
+NotePlayingR 255
+NotePlayingG 0
+NotePlayingB 0
+NotePlayingA 128
+
+KeyswitchR 0
+KeyswitchG 255
+KeyswitchB 0
+KeyswitchA 128
+
+----------------------------------------------------------------------------------------------
+Pages - 
+ControlName	ControlType	Image		Page	x1	y1	x2	y2
+----------------------------------------------------------------------------------------------
+PAGES
+
+----------------------------------------------------------------------------------------------
+Controls - 
+ControlName			ControlType			Image			Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+CONTROLS
+GuiMainSourceKeymapEditor 	KeymapEditor			Background_Black	Main	18	9	888	327
+GuiMainSourceEnvelopeEditor 	EnvelopeWarpMarkerEditor	Background_Black	Main	18	379	888	628
+
+GuiMainSourcePlayback		OnButton			Button_Tiny_Playback	Main	17	344
+ZnLoopXE			OnButton			Button_Large		Main	110	344
+
+----------------------------------------------------------------------------------------------
+Labels- 
+String			Enabled		Font			Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+LABELS
+Ext_Editor		0		Font_Button_Label	Main	600	352
+Slice			0		Font_Button_Label	Main	116	352
+Fix			0		Font_Button_Label	Main	173	352
+Auto			0		Font_Button_Label	Main	204	352
+Num_Slices		0		Font_Label_Small_Grey	Main	252	352
+Key			0		Font_Label_Small_Grey	Main	350	352
+Drag_MIDI		0		Font_Button_Label	Main	441	352
+Warp			0		Font_Button_Label	Main	57	348
+Loop_XFade		1		Font_Button_Label	Main	116	348
+
+---------------------------------------------------------------------------------------

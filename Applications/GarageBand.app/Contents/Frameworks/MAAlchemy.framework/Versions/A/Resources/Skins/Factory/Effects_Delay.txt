@@ -1,0 +1,110 @@
+----------------------------------------------------------------------------------------------
+Bitmaps - complete list of bitmaps
+----------------------------------------------------------------------------------------------
+BITMAPS
+Effects_Delay
+Background_BGrey_Small
+Button_Previous_BGrey
+Button_Next_BGrey
+
+Knob_45x45px_2c_bkg_outercircle_White
+Knob_32x32px_2c_bkg_outercircle_White
+
+----------------------------------------------------------------------------------------------
+Fonts - bitmap name, num chars, char list, char widths
+----------------------------------------------------------------------------------------------
+FONTS
+
+----------------------------------------------------------------------------------------------
+True Type Fonts - name referring to png and txt file (in BMFont format)
+----------------------------------------------------------------------------------------------
+TRUETYPEFONTS
+
+----------------------------------------------------------------------------------------------
+Parameters - complete list of other required params eg. colours
+----------------------------------------------------------------------------------------------
+PARAMETERS
+BackgroundImage	0
+
+MenuBackground 1
+LeftScrollButton 2
+RightScrollButton 3
+KnobArc 4
+KnobArcSmall 5
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image			Page	x1	y1	x2	y2
+----------------------------------------------------------------------------------------------
+PAGES
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image				Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+CONTROLS
+
+Efn00001			OnButton		Button_Large			Main	199	88
+Efn00006			OnButton		Button_Large			Main	282	88
+
+Eff00001			Knob			Knob_45x45px_2c_0-100_White	Main	36	34
+Eff00002			Knob			Knob_45x45px_2c_0-100_White	Main	36	108
+
+Eff00003			Knob			Knob_45x45px_2c_0-100_White	Main	86	34
+Eff00004			Knob			Knob_45x45px_2c_0-100_White	Main	86	108
+
+Eff00006			Knob			Knob_45x45px_2c_0-100_White	Main	136	34
+Eff00007			Knob			Knob_45x45px_2c_0-100_White	Main	136	108
+
+Efn00002			OnButton		Button_Small			Main	199	59
+Efn00003			OnButton		Button_Small			Main	199	117
+
+Efn00004			ScrollSelector		Button_Dropdown			Main	231	59	130
+Efn00005			ScrollSelector		Button_Dropdown			Main	231	117	130
+
+Eff00009			Knob			Knob_45x45px_2c_0-100_White	Main	378	34
+Eff00010			Knob			Knob_45x45px_2c_0-100_White	Main	378	108
+
+Eff00011			Knob			Knob_45x45px_2c_0-100_White	Main	428	34
+Eff00012			Knob			Knob_45x45px_2c_0-100_White	Main	428	108
+
+Eff00008			Knob			Knob_45x45px_2c_0-100_White	Main	503	34
+Eff00013			Knob			Knob_45x45px_2c_0-100_White	Main	503	108
+
+Eff00005			Knob			Knob_45x45px_2c_0-100_White	Main	562	77
+
+GuiDelayFile			ButtonMenu		Button_Medium			Main	555	9
+
+----------------------------------------------------------------------------------------------
+String			Enabled			Font				Page	x1	y1
+----------------------------------------------------------------------------------------------
+LABELS
+DELAY			1			Font_Label_Section_Dark		Main	20	10
+
+Sync			1			Font_Button_Label		Main	224	91
+Mono			1			Font_Button_Label		Main	305	91
+
+On			1			Font_Button_Label		Main	204	62
+On			1			Font_Button_Label		Main	204	120
+
+Rate			1			Font_Label_Small_Dark		Eff00001	49	81
+Offset			1			Font_Label_Small_Dark		Eff00003	92	81
+Feedback		1			Font_Label_Small_Dark		Eff00006	135	81
+
+Cutoff			1			Font_Label_Small_Dark		Eff00009	386	81
+Res			1			Font_Label_Small_Dark		Eff00011	445	81
+Cutoff			1			Font_Label_Small_Dark		Eff00010	386	155
+Res			1			Font_Label_Small_Dark		Eff00012	445	155
+
+Crossover		1			Font_Label_Small_Dark		Eff00008	497	81
+Initial_Pan		1			Font_Label_Small_Dark		Eff00013	498	155
+Mix			1			Font_Label_Small_Dark		Eff00005	579	124
+
+L			1			Font_Label_Small_Dark		Main	21	53
+R			1			Font_Label_Small_Dark		Main	20	127
+
+Rate			1			Font_Label_Small_Dark		Eff00002	49	155
+Offset			1			Font_Label_Small_Dark		Eff00004	92	155
+Feedback		1			Font_Label_Small_Dark		Eff00007	135	155
+
+File			1			Font_Button_Label		Main	572	12
+
+---------------------------------------------------------------------------------------

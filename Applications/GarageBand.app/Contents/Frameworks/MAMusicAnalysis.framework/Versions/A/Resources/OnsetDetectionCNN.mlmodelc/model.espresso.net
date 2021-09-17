@@ -1,0 +1,227 @@
+{
+  "storage" : "model.espresso.weights",
+  "analyses" : {
+
+  },
+  "properties" : {
+
+  },
+  "format_version" : 200,
+  "layers" : [
+    {
+      "name" : "input_normalization_Mel",
+      "bottom" : "input1",
+      "weights" : {
+
+      },
+      "debug_info" : "input_normalization_Mel",
+      "top" : "input_normalization_Mel_output",
+      "C" : 3,
+      "blob_batchnorm_params" : 1,
+      "type" : "batchnorm"
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "conv2d_1",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "conv2d_1_output",
+      "blob_weights" : 5,
+      "K" : 3,
+      "blob_biases" : 3,
+      "name" : "conv2d_1",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 10,
+      "bottom" : "input_normalization_Mel_output",
+      "weights" : {
+
+      },
+      "Nx" : 7,
+      "pad_mode" : 0,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : 0.30000001192092896,
+      "bottom" : "conv2d_1_output",
+      "weights" : {
+
+      },
+      "mode" : 2,
+      "debug_info" : "leaky_re_lu_1",
+      "top" : "leaky_re_lu_1_output",
+      "type" : "activation",
+      "name" : "leaky_re_lu_1"
+    },
+    {
+      "pad_r" : 0,
+      "debug_info" : "max_pooling2d_1",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "size_x" : 1,
+      "top" : "max_pooling2d_1_output",
+      "top_shape_style" : 0,
+      "stride_x" : 1,
+      "avg_or_max" : 1,
+      "average_count_exclude_padding" : 1,
+      "type" : "pool",
+      "name" : "max_pooling2d_1",
+      "pad_t" : 0,
+      "stride_y" : 3,
+      "bottom" : "leaky_re_lu_1_output",
+      "weights" : {
+
+      },
+      "pad_mode" : 2,
+      "size_y" : 3,
+      "pad_value" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "conv2d_2",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "conv2d_2_output",
+      "blob_weights" : 9,
+      "K" : 10,
+      "blob_biases" : 7,
+      "name" : "conv2d_2",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 20,
+      "bottom" : "max_pooling2d_1_output",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 0,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : 0.30000001192092896,
+      "bottom" : "conv2d_2_output",
+      "weights" : {
+
+      },
+      "mode" : 2,
+      "debug_info" : "leaky_re_lu_2",
+      "top" : "leaky_re_lu_2_output",
+      "type" : "activation",
+      "name" : "leaky_re_lu_2"
+    },
+    {
+      "pad_r" : 0,
+      "debug_info" : "max_pooling2d_2",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "size_x" : 1,
+      "top" : "max_pooling2d_2_output",
+      "top_shape_style" : 0,
+      "stride_x" : 1,
+      "avg_or_max" : 1,
+      "average_count_exclude_padding" : 1,
+      "type" : "pool",
+      "name" : "max_pooling2d_2",
+      "pad_t" : 0,
+      "stride_y" : 3,
+      "bottom" : "leaky_re_lu_2_output",
+      "weights" : {
+
+      },
+      "pad_mode" : 2,
+      "size_y" : 3,
+      "pad_value" : 0
+    },
+    {
+      "bottom" : "max_pooling2d_2_output",
+      "weights" : {
+
+      },
+      "mode" : 1,
+      "nd_axis" : 0,
+      "debug_info" : "flatten_1",
+      "top" : "flatten_1_output",
+      "type" : "flatten",
+      "name" : "flatten_1"
+    },
+    {
+      "nB" : 1120,
+      "top" : "dense_1_output",
+      "has_biases" : 1,
+      "weights" : {
+
+      },
+      "nC" : 256,
+      "blob_weights" : 13,
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "flatten_1_output",
+      "blob_biases" : 11,
+      "has_tanh" : 0,
+      "debug_info" : "dense_1",
+      "name" : "dense_1",
+      "has_prelu" : 0
+    },
+    {
+      "bottom" : "dense_1_output",
+      "weights" : {
+
+      },
+      "mode" : 3,
+      "debug_info" : "dense_1__activation__",
+      "top" : "dense_1__activation___output",
+      "type" : "activation",
+      "name" : "dense_1__activation__"
+    },
+    {
+      "nB" : 256,
+      "top" : "dense_2_output",
+      "has_biases" : 1,
+      "weights" : {
+
+      },
+      "nC" : 1,
+      "blob_weights" : 17,
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "dense_1__activation___output",
+      "blob_biases" : 15,
+      "has_tanh" : 0,
+      "debug_info" : "dense_2",
+      "name" : "dense_2",
+      "has_prelu" : 0
+    },
+    {
+      "bottom" : "dense_2_output",
+      "weights" : {
+
+      },
+      "mode" : 3,
+      "debug_info" : "dense_2__activation__",
+      "top" : "output1",
+      "type" : "activation",
+      "name" : "dense_2__activation__",
+      "attributes" : {
+        "is_output" : 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+----------------------------------------------------------------------------------------------
+Bitmaps - complete list of bitmaps
+----------------------------------------------------------------------------------------------
+BITMAPS
+Effects_ModFX
+Knob_45x45px_2c_bkg_outercircle_White
+Knob_32x32px_2c_bkg_outercircle_White
+
+----------------------------------------------------------------------------------------------
+Fonts - bitmap name, num chars, char list, char widths
+----------------------------------------------------------------------------------------------
+FONTS
+
+----------------------------------------------------------------------------------------------
+True Type Fonts - name referring to png and txt file (in BMFont format)
+----------------------------------------------------------------------------------------------
+TRUETYPEFONTS
+
+----------------------------------------------------------------------------------------------
+Parameters - complete list of other required params eg. colours
+----------------------------------------------------------------------------------------------
+PARAMETERS
+BackgroundImage	0
+KnobArc 1
+KnobArcSmall 2
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image			Page	x1	y1	x2	y2
+----------------------------------------------------------------------------------------------
+PAGES
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image				Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+CONTROLS
+Eff00001		Knob			Knob_45x45px_2c_0-100_White		Main	26	34	
+Eff00003		Knob			Knob_45x45px_2c_0-100_White		Main	76	34
+Eff00005		Knob			Knob_45x45px_2c_0-100_White		Main	126	34
+Eff00002		Knob			Knob_45x45px_2c_0-100_White		Main	26	108
+Eff00004		Knob			Knob_45x45px_2c_0-100_White		Main	76	108
+Eff00006		Knob			Knob_45x45px_2c_0-100_White		Main	126	108
+
+GuiModFXFile		ButtonMenu		Button_Medium			Main	118	9
+
+
+----------------------------------------------------------------------------------------------
+String			Enabled			Font				Page	x1	y1
+----------------------------------------------------------------------------------------------
+LABELS
+MOD_FX			1			Font_Label_Section_Dark		Main	20	10
+
+Delay			1			Font_Label_Small_Dark		Eff00001	34	81
+Rate			1			Font_Label_Small_Dark		Eff00003	87	81
+Mix			1			Font_Label_Small_Dark		Eff00005	140	81
+Depth			1			Font_Label_Small_Dark		Eff00002	33	155
+Feedback		1			Font_Label_Small_Dark		Eff00004	75	155
+Stereo			1			Font_Label_Small_Dark		Eff00006	135	155
+
+File			1			Font_Button_Label		Main	135	12
+
+---------------------------------------------------------------------------------------

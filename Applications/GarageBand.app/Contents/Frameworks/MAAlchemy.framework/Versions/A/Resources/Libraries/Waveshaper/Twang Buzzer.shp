@@ -1,0 +1,20 @@
+EffectRack = 0
+EffectSlot = 0
+EffectType = 23
+ExtraData = n/a
+AutomatableParams = 5
+NonAutomatableParams = 3
+WSMix = 1.0000
+WSPrGain = 0.0633
+WSPrFreq = 0.2900
+WSPoGain = 0.4096
+WSPoFreq = 0.2750
+WSPrRoll = 0.585
+WSPoRoll = 0.590
+WsBipolr = 1.000
+
+<waveshaperenv>
+WaveshaperEnvR0S0 = 3 2
+0.00000000	0.50000000	1.00000000	
+0.00000000	0.50000000	1.00000000	
+0.13934427	0.86065573	0.50000000	

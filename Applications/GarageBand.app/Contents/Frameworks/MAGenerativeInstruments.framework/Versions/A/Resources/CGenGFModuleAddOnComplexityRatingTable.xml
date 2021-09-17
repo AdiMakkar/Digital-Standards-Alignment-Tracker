@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>name</key>
+		<string>AddOn Complexity Rating Table</string>
+		<key>description</key>
+		<string>Module that gets the complexity from the complexity rating table depending on input family name and addOn name.</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputFamilyName</key>
+		<dict>
+			<key>description</key>
+			<string>family name</string>
+			<key>name</key>
+			<string>Family Name</string>
+		</dict>
+		<key>inputAddOnName</key>
+		<dict>
+			<key>description</key>
+			<string>addOn name</string>
+			<key>name</key>
+			<string>AddOn Name</string>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputValue</key>
+		<dict>
+			<key>description</key>
+			<string>the value from the complexity table</string>
+			<key>name</key>
+			<string>Value</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

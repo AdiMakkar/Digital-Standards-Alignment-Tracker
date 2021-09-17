@@ -1,0 +1,10 @@
+
+<lfo>
+LfoTrig = 1
+LfoBiPol = 0
+LfoShape = Alchemy/Libraries/WaveLfo/Basic/Random Hold.raw
+LfoSync = 1
+LfoRate = 0.665
+LfoDelay = 0.000
+LfoAttck = 0.000
+LfoPhase = 0.000

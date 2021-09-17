@@ -1,0 +1,61 @@
+----------------------------------------------------------------------------------------------
+Bitmaps - complete list of bitmaps
+----------------------------------------------------------------------------------------------
+BITMAPS
+
+----------------------------------------------------------------------------------------------
+Fonts - bitmap name, num chars, char list, char widths
+----------------------------------------------------------------------------------------------
+FONTS
+
+----------------------------------------------------------------------------------------------
+True Type Fonts - name referring to png and txt file (in BMFont format)
+----------------------------------------------------------------------------------------------
+TRUETYPEFONTS
+
+----------------------------------------------------------------------------------------------
+Parameters - complete list of other required params eg. colours
+----------------------------------------------------------------------------------------------
+PARAMETERS
+WaveLineR 255
+WaveLineG 149
+WaveLineB 0
+WaveLineA 255
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image			Page	x1	y1	x2	y2
+----------------------------------------------------------------------------------------------
+PAGES
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image				Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+CONTROLS
+GuiEnvFollowRealTimeViewer	ModulationViewer	Background_Black	Main	175	6	776	180
+
+EfAttck			Knob			Knob_45x45px_2c_0-100		Main	10	78
+EfRelse			Knob			Knob_45x45px_2c_0-100		Main	60	78
+EfGain			Knob			Knob_45x45px_2c_0-100		Main	110	78
+
+EfSrc			Selector		Button_Dropdown			Main	15	43	139
+
+EfCur			ScrollSelector		Button_Dropdown			Main	15	6	65
+GuiModEfFile		ButtonMenu		Button_Medium			Main	89	6
+
+GuiEnvFollowLegacy	OnButton		Button_Medium			Main	58	150
+
+----------------------------------------------------------------------------------------------
+String			Enabled			Font			Page	x1	y1		
+----------------------------------------------------------------------------------------------
+LABELS
+Current			1		Font_Label_Small_Grey	Main	15	27
+Source			1		Font_Label_Small_Grey	Main	15	64
+
+Attack			1		Font_Label_Small	EfAttck		35	125
+Release			1		Font_Label_Small	EfRelse		79	125
+Scale			1		Font_Label_Small	EfGain		133	125
+
+File			1		Font_Button_Label	Main	105	9
+
+Legacy			1		Font_Button_Label	Main	65	153
+---------------------------------------------------------------------------------------

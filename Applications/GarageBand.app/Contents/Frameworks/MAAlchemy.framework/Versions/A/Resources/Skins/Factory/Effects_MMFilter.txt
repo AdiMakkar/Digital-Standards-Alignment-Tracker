@@ -1,0 +1,63 @@
+----------------------------------------------------------------------------------------------
+Bitmaps - complete list of bitmaps
+----------------------------------------------------------------------------------------------
+BITMAPS
+Effects_MMFilter
+Background_BGrey_Small
+Button_Previous_BGrey
+Button_Next_BGrey
+
+Knob_45x45px_2c_bkg_outercircle_White
+Knob_32x32px_2c_bkg_outercircle_White
+
+----------------------------------------------------------------------------------------------
+Fonts - bitmap name, num chars, char list, char widths
+----------------------------------------------------------------------------------------------
+FONTS
+
+----------------------------------------------------------------------------------------------
+True Type Fonts - name referring to png and txt file (in BMFont format)
+----------------------------------------------------------------------------------------------
+TRUETYPEFONTS
+
+----------------------------------------------------------------------------------------------
+Parameters - complete list of other required params eg. colours
+----------------------------------------------------------------------------------------------
+PARAMETERS
+BackgroundImage	0
+
+MenuBackground 1
+LeftScrollButton 2
+RightScrollButton 3
+KnobArc 4
+KnobArcSmall 5
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image			Page	x1	y1	x2	y2
+----------------------------------------------------------------------------------------------
+PAGES
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image				Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+CONTROLS
+Efn00001		ScrollSelector		Button_Dropdown			Main	22	48	120
+Eff00004		Knob			Knob_45x45px_2c_0-100_White		Main	146	34
+Eff00001		Knob			Knob_45x45px_2c_0-100_White		Main	46	108
+Eff00002		Knob			Knob_45x45px_2c_0-100_White		Main	96	108
+Eff00003		Knob			Knob_45x45px_2c_0-100_White		Main	146	108
+
+----------------------------------------------------------------------------------------------
+String			Enabled			Font				Page	x1	y1
+----------------------------------------------------------------------------------------------
+LABELS
+MULTIMODE_FILTER	1			Font_Label_Section_Dark		Main	20	10
+
+Type			1			Font_Label_Small_Grey		Main	22	70
+
+Mix			1			Font_Label_Small_Dark		Eff00004	160	81
+Cutoff			1			Font_Label_Small_Dark		Eff00001	50	155
+Res			1			Font_Label_Small_Dark		Eff00002	114	155
+Drive			1			Font_Label_Small_Dark		Eff00003	158	155
+
+---------------------------------------------------------------------------------------

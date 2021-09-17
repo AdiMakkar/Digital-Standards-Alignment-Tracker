@@ -1,0 +1,68 @@
+----------------------------------------------------------------------------------------------
+Bitmaps - complete list of bitmaps
+----------------------------------------------------------------------------------------------
+BITMAPS
+
+----------------------------------------------------------------------------------------------
+Fonts - bitmap name, num chars, char list, char widths
+----------------------------------------------------------------------------------------------
+FONTS
+
+----------------------------------------------------------------------------------------------
+True Type Fonts - name referring to png and txt file (in BMFont format)
+----------------------------------------------------------------------------------------------
+TRUETYPEFONTS
+
+----------------------------------------------------------------------------------------------
+Parameters - complete list of other required params eg. colours
+----------------------------------------------------------------------------------------------
+PARAMETERS
+WaveLineR 255
+WaveLineG 149
+WaveLineB 0
+WaveLineA 255
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image			Page	x1	y1	x2	y2
+----------------------------------------------------------------------------------------------
+PAGES
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image				Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+CONTROLS
+GuiLfoWaveformViewer	WaveformViewer		Background_Black		Main	404	6	776	180
+
+LfoTrig			Selector		Button_Dropdown			Main	15	43	65
+LfoBiPol		OnButton		Button_Medium			Main	89	43
+
+LfoDelay		Knob			Knob_45x45px_2c_0-100		Main	170	42
+LfoAttck		Knob			Knob_45x45px_2c_0-100		Main	220	42
+LfoPhase		Knob			Knob_45x45px_2c_0-100		Main	270	42
+LfoRate			Knob			Knob_45x45px_2c_0-100		Main	320	42
+
+LfoSync			OnButton		Button_Medium			Main	318	106
+
+LfoShape		FileSelector		Button_Dropdown			Main	175	6	150
+
+LfoCur			ScrollSelector		Button_Dropdown			Main	15	6	65
+GuiModLfoFile		ButtonMenu		Button_Medium			Main	89	6
+
+----------------------------------------------------------------------------------------------
+String			Enabled			Font			Page	x1	y1		
+----------------------------------------------------------------------------------------------
+LABELS
+Current			1		Font_Label_Small_Grey	Main	15	27
+Shape			1		Font_Label_Small_Grey	Main	175	27
+Trigger			1		Font_Label_Small_Grey	Main	15	64
+
+Delay			1		Font_Label_Small	LfoDelay	192	89
+Attack			1		Font_Label_Small	LfoAttck	239	89
+Phase			1		Font_Label_Small	LfoPhase	293	89
+Rate			1		Font_Label_Small	LfoRate	345	89
+
+File			1		Font_Button_Label	Main	105	9
+
+Bipolar			1		Font_Button_Label	Main	96	46
+Sync			1		Font_Button_Label	Main	331	109
+---------------------------------------------------------------------------------------
