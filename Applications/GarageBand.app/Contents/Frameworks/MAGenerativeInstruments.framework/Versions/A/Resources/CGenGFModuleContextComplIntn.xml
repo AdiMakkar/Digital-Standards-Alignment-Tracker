@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>name</key>
+		<string>Gen Complexity/Intensity</string>
+		<key>description</key>
+		<string>Current complexity and intensity settings.</string>
+	</dict>
+<key>outputAttributes</key>
+	<dict>
+		<key>outputAccCompl</key>
+		<dict>
+			<key>description</key>
+			<string>Accent Complexity</string>
+			<key>name</key>
+			<string>Acc Compl</string>
+		</dict>
+		<key>outputAccIntn</key>
+		<dict>
+			<key>description</key>
+			<string>Accent Intensity</string>
+			<key>name</key>
+			<string>Acc Intn</string>
+		</dict>		
+		<key>outputSysCompl</key>
+		<dict>
+			<key>description</key>
+			<string>System Complexity</string>
+			<key>name</key>
+			<string>Sys Compl</string>
+		</dict>
+		<key>outputSysIntn</key>
+		<dict>
+			<key>description</key>
+			<string>System Intensity</string>
+			<key>name</key>
+			<string>Sys Intn</string>
+		</dict>				
+	</dict>
+</dict>
+</plist>

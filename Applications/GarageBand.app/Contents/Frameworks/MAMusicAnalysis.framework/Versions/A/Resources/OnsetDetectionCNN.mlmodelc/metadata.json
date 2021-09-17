@@ -1,0 +1,62 @@
+[
+  {
+    "shortDescription" : "",
+    "metadataOutputVersion" : "3.0",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Double",
+        "formattedType" : "MultiArray (Double 1)",
+        "shortDescription" : "",
+        "shape" : "[1]",
+        "name" : "output1",
+        "type" : "MultiArray"
+      }
+    ],
+    "version" : "",
+    "modelParameters" : [
+
+    ],
+    "author" : "",
+    "specificationVersion" : 1,
+    "license" : "",
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "10.13",
+      "tvOS" : "11.0",
+      "watchOS" : "4.0",
+      "iOS" : "11.0",
+      "macCatalyst" : "11.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_neuralNetwork"
+    },
+    "inputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Double",
+        "formattedType" : "MultiArray (Double 3 × 80 × 15)",
+        "shortDescription" : "",
+        "shape" : "[3, 80, 15]",
+        "name" : "input1",
+        "type" : "MultiArray"
+      }
+    ],
+    "userDefinedMetadata" : {
+
+    },
+    "generatedClassName" : "OnsetDetectionCNN",
+    "neuralNetworkLayerTypeHistogram" : {
+      "PoolingMax" : 2,
+      "ActivationLeakyReLU" : 2,
+      "Flatten" : 1,
+      "BatchNorm" : 1,
+      "Convolution" : 2,
+      "ActivationSigmoid" : 2,
+      "InnerProduct" : 2
+    },
+    "method" : "predict"
+  }
+]

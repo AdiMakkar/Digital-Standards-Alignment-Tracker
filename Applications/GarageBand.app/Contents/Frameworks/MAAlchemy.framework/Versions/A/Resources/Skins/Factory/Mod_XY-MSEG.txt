@@ -1,0 +1,108 @@
+----------------------------------------------------------------------------------------------
+Bitmaps - complete list of bitmaps
+----------------------------------------------------------------------------------------------
+BITMAPS
+Mod_XY-MSEG
+
+----------------------------------------------------------------------------------------------
+Fonts - bitmap name, num chars, char list, char widths
+----------------------------------------------------------------------------------------------
+FONTS
+
+----------------------------------------------------------------------------------------------
+True Type Fonts - name referring to png and txt file (in BMFont format)
+----------------------------------------------------------------------------------------------
+TRUETYPEFONTS
+
+----------------------------------------------------------------------------------------------
+Parameters - complete list of other required params eg. colours
+----------------------------------------------------------------------------------------------
+PARAMETERS
+BackgroundImage	0
+EnvLineR 255
+EnvLineG 255
+EnvLineB 255
+EnvLineA 255
+SelLineR 169
+SelLineG 220
+SelLineB 246
+SelLineA 255
+SyncLineR 10
+SyncLineG 61
+SyncLineB 87
+SyncLineA 255
+WarpMarkR 49
+WarpMarkG 55
+WarpMarkB 57
+WarpMarkA 255
+BreakPointR 100
+BreakPointG 100
+BreakPointB 100
+BreakPointA 255
+SelBreakPointR 0
+SelBreakPointG 181
+SelBreakPointB 226
+SelBreakPointA 255
+PhaseMarkerR 255
+PhaseMarkerG 255
+PhaseMarkerB 255
+PhaseMarkerA 255
+TimeMarkerR 154
+TimeMarkerG 191
+TimeMarkerB 229
+TimeMarkerA 255
+XYTimeMarkerR 203
+XYTimeMarkerG 232
+XYTimeMarkerB 0
+XYTimeMarkerA 255
+EnvEditorBorderLeft 5
+
+EnvEditorBorderRight 5
+
+EnvEditorBorderTop 5
+
+EnvEditorBorderBottom 3
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image			Page	x1	y1	x2	y2
+----------------------------------------------------------------------------------------------
+PAGES
+
+----------------------------------------------------------------------------------------------
+ControlName			ControlType		Image			Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+CONTROLS
+GuiModMxyFile			ButtonMenu		Button_Medium		Main	17	6	
+
+MxyTrig				OnButton		Button_Medium		Main	17	64
+
+MxyCurX				ScrollSelector		Button_Dropdown		Main	17	35	65
+MxyCurY				ScrollSelector		Button_Dropdown		Main	91	35	65
+
+MxyCurEn			RadioButton		Button_Group_Small_C	Main	83	6	165	2
+MxySync				OnButton		Button_Medium		Main	83	64
+
+MxyLoop				Selector		Button_Dropdown		Main	17	93	120
+MxyMode				Selector		Button_Dropdown		Main	17	132	120
+
+GuiXYMsegEnvEditor		XYEnvelopeEditor	Background_Black	Main	169	7	600	183	
+
+GuiXYMsegSquare			XYMorphSquare		Background_Black	Main	605	7	775	183
+
+
+----------------------------------------------------------------------------------------------
+String			Enabled			Font			Page	x1	y1		
+----------------------------------------------------------------------------------------------
+LABELS	
+File			1		Font_Button_Label	Main	32	10
+
+X			1		Font_Button_Label	Main	96	10
+Y			1		Font_Button_Label	Main	133	10
+
+Trigger			1		Font_Button_Label	Main	23	67
+Sync			1		Font_Button_Label	Main	97	67
+
+LOOP_MODE		1		Font_Label_Small_Grey	Main	19	116
+LOOP_MODE		1		Font_Label_Small_Grey	Main	19	155
+
+---------------------------------------------------------------------------------------

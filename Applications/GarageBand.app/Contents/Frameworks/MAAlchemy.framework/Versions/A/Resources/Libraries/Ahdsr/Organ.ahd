@@ -1,0 +1,11 @@
+
+<ahdsr>
+AhdTrig = 1
+AhdAttck = 0.000
+AhdHold = 0.000
+AhdDecay = 0.000
+AhdSustn = 1.000
+AhdRelse = 0.050
+AhdAttcS = 0
+AhdDecaS = 0
+AhdRelsS = 0

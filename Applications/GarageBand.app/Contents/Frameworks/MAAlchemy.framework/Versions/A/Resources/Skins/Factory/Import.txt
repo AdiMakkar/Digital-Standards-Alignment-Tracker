@@ -1,0 +1,94 @@
+----------------------------------------------------------------------------------------------
+Bitmaps - complete list of bitmaps
+----------------------------------------------------------------------------------------------
+BITMAPS
+Import
+Background_DropZone
+Button_Formant
+
+----------------------------------------------------------------------------------------------
+Fonts - bitmap name, num chars, char list, char widths
+----------------------------------------------------------------------------------------------
+FONTS
+
+----------------------------------------------------------------------------------------------
+True Type Fonts - name referring to png and txt file (in BMFont format)
+----------------------------------------------------------------------------------------------
+TRUETYPEFONTS
+
+----------------------------------------------------------------------------------------------
+Parameters - complete list of other required params eg. colours
+----------------------------------------------------------------------------------------------
+PARAMETERS
+BackgroundImage	0
+RadioButtonSpace 25
+SelectR 0
+SelectG 163
+SelectB 204
+SelectA 255
+LineR 0
+LineG 0
+LineB 0
+LineA 40
+SearchFilenameLength 48
+PathLength 32
+FilenameColumnSize 300
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image			Page	x1	y1	x2	y2
+----------------------------------------------------------------------------------------------
+PAGES
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image				Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+CONTROLS
+GuiImportSearchList    	SearchSelectList	Background_Grey			Main	303	80	851	645
+GuiImportBrowserFile	FileSelectList		Background_Grey			Main	303	80	851	645
+GuiImportPathNavigator	PathNavigator		Font_Display_Small	   	Main	11	24	790	48
+GuiImportLocations	LocationSelectList	Background_Grey			Main	11	57	295	645
+GuiImportDropzone	DropSelectList		Background_DropZone		Main	855	57	1148	645
+GuiImportParentFolder	KickButton		Button_Large			Main	320	57
+
+GuiImportSearchField	SingleClickTextEdit		Font_Display_Small		Main	800 	22	1055	42
+GuiImportSearchButton	KickButton		Button_Search_Light		Main	1076	21
+GuiImportSearchCancelButton KickButton		Button_Cancel		Main	1056	20
+
+ImpMode			RadioButton		Button_Group_Big_C		Main	24	678	400	5
+ImpModeF		OnButton		Button_Formant			Main	50	706	
+
+GuiImportMapping	Selector		Button_Dropdown			Main	420	678	80
+GuiImportMaxSize	Selector		Button_Dropdown			Main	642	678	96
+
+GuiImportPreview	OnButton		Button_Large			Main	836	684	
+GuiImportCancel		KickButton		Button_Large			Main	938	684	
+GuiImportAnalyze	KickButton		Button_Large			Main	1040	684
+
+GuiImportClose		KickButton		Button_Close			Main	1116	20
+
+GuiImportNumDropFiles	TextDisplay		Font_Display_Small		Main	947	650	1047	670
+
+----------------------------------------------------------------------------------------------
+String			Enabled			Font			Page	x1	y1	
+----------------------------------------------------------------------------------------------
+LABELS
+Formant			1			Font_Button_Label	Main	102	709
+Max_Size		1			Font_Display_Small	Main	643	659
+The_selected_EXS_Instrument_may_sound_somewhat_different_when_imported_into_Alchemy.  1      Font_Button_Label  Main  643  715
+
+Parent_Folder		1			Font_Display_Small	Main	324	60
+
+Additive		1			Font_Button_Label	Main	36	681
+Spectral		1			Font_Button_Label	Main	103	681
+Add+Spec		1			Font_Button_Label	Main	166	681
+Granular		1			Font_Button_Label	Main	238	681
+Sampler			1			Font_Button_Label	Main	307	681
+
+Analysis_Mode		1			Font_Display_Small	Main	24	659
+Mapping			1			Font_Display_Small	Main	420	659
+
+Preview			1			Font_Button_Label	Main	854	687
+Cancel			1			Font_Button_Label	Main	958	687
+Import			1			Font_Button_Label	Main	1061	687
+
+---------------------------------------------------------------------------------------

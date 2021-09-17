@@ -1,0 +1,13 @@
+EffectRack = 0
+EffectSlot = 0
+EffectType = 22
+ExtraData = n/a
+AutomatableParams = 6
+NonAutomatableParams = 1
+CoPAttck = 0.7878
+CoPRelse = 1.0000
+CoPThrsh = 0.0338
+CoPRatio = 0.8878
+CoPIGain = 0.7932
+CoPOGain = 0.9545
+CoPBasMd = 0.000

@@ -1,0 +1,12 @@
+EffectRack = 0
+EffectSlot = 0
+EffectType = 3
+ExtraData = n/a
+AutomatableParams = 6
+NonAutomatableParams = 0
+ModDelay = 0.0000
+ModDepth = 0.1524
+ModRate = 0.1805
+ModFback = 0.1252
+ModMix = 0.1827
+ModSte = 0.9465

@@ -1,0 +1,137 @@
+----------------------------------------------------------------------------------------------
+Bitmaps - complete list of bitmaps
+----------------------------------------------------------------------------------------------
+BITMAPS
+Source_All
+
+----------------------------------------------------------------------------------------------
+Fonts - bitmap name, num chars, char list, char widths
+----------------------------------------------------------------------------------------------
+FONTS
+
+----------------------------------------------------------------------------------------------
+True Type Fonts - name referring to png and txt file (in BMFont format)
+----------------------------------------------------------------------------------------------
+TRUETYPEFONTS
+
+----------------------------------------------------------------------------------------------
+Parameters - complete list of other required params eg. colours
+----------------------------------------------------------------------------------------------
+PARAMETERS
+BackgroundImage	0
+VUMeterR 234
+VUMeterG 234
+VUMeterB 234
+VUMeterA 100
+VUMeterClipR 255
+VUMeterClipG 32
+VUMeterClipB 32
+VUMeterClipA 100
+RadioButtonSpace 20
+RadioButtonSpaceIndex 1
+DropR 63
+DropG 179
+DropB 236
+DropA 100
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image			Page	x1	y1	x2	y2472-7
+
+----------------------------------------------------------------------------------------------
+PAGES
+Source_A		SkinnableView		Source_A.txt		Main 	15	34	235	130
+Source_B		SkinnableView		Source_B.txt		Main 	245	34	465	130
+Source_C		SkinnableView		Source_C.txt		Main 	15	136	235	232
+Source_D		SkinnableView		Source_D.txt		Main 	245	136	465	232
+DropSource_A  SkinnableView Source_DropAll.txt Main 15  34  235  130
+DropSource_B  SkinnableView Source_DropAll.txt Main   245  34  465  130
+DropSource_C  SkinnableView Source_DropAll.txt Main   15  136  235  232
+DropSource_D  SkinnableView Source_DropAll.txt Main   245  136  465  232
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image				Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+CONTROLS
+
+F1On			OnButton		Button_Small			Main	490	34
+F1Type			SelectorVUMeter		Button_Previous			Main	521	34	120
+F1Cut			Knob			Knob_45x45px_2c_0-100		Main	495	60
+F1Res			Knob			Knob_45x45px_2c_0-100		Main	545	60
+F1Drive			Knob			Knob_45x45px_2c_0-100		Main	595	60
+F1FxMix			Knob			Knob_45x45px_2c_0-100		Main	692	60
+F1EfxRot		Selector		Button_Dropdown			Main	685	104	65
+
+
+F2On			OnButton		Button_Small			Main	490	136
+F2Type			SelectorVUMeter		Button_Previous			Main	521	136	120
+F2Cut			Knob			Knob_45x45px_2c_0-100		Main	495	162
+F2Res			Knob			Knob_45x45px_2c_0-100		Main	545	162
+F2Drive			Knob			Knob_45x45px_2c_0-100		Main	595	162
+F2FxMix			Knob			Knob_45x45px_2c_0-100		Main	692	162
+F2EfxRot		Selector		Button_Dropdown			Main	685 	206	65
+
+FSerMix			KnobSmall		Knob_32x32px_2c_0-100		Main	645	110
+
+PerSrcVc		RadioButtonSpaceN	Button_Group_Tiny_C		Main	860	129 	980 	5
+
+PlayMode		Selector		Button_Dropdown			Main	780	157	87
+NmVoices		Selector		Button_Dropdown			Main	877	157	57
+Porto			Knob			Knob_45x45px_2c_0-100		Main	1001	128
+PortMode		RadioButton		Button_Group_Small_C		Main	991	191	1062	2
+PbUp			Selector		Button_Dropdown			Main	877	191	41
+PbDown			Selector		Button_Dropdown			Main	922	191	41
+Priority		Selector		Button_Dropdown			Main	780	191	87
+
+Amp			Knob			Knob_45x45px_2c_0-100		Main	785	35
+Pan			Knob			Knob_45x45px_2c_50-0-50		Main	835	35
+TuneCrs			Knob			Knob_45x45px_2c_50-0-50		Main	952	35
+TuneFine		Knob			Knob_45x45px_2c_50-0-50		Main	1002	35
+
+----------------------------------------------------------------------------------------------
+String			Enabled			Font			Page	x1	y1	
+----------------------------------------------------------------------------------------------
+LABELS
+A      1      Font_Label_Blue  Main  19  37
+B      1      Font_Label_Blue  Main  249  37
+C      1      Font_Label_Blue  Main  19  139
+D      1      Font_Label_Blue  Main  249  139
+
+SOURCES			1			Font_Label_Section	Main	14	12
+FILTER			1			Font_Label_Section	Main	489	12
+MASTER			1			Font_Label_Section	Main	779	12
+VOICES			1			Font_Label_Section	Main	779	132
+
+On			1			Font_Button_Label	Main	495	37
+On			1			Font_Button_Label	Main	495	139
+
+Cutoff			1			Font_Label_Small	F1Cut	506	107
+Res			1			Font_Label_Small	F1Res	566	107
+Drive			1			Font_Label_Small	F1Drive	610	107
+
+Cutoff			1			Font_Label_Small	F2Cut	506	209
+Res			1			Font_Label_Small	F2Res	566	209
+Drive			1			Font_Label_Small	F2Drive	610	209
+
+Par/Ser			1			Font_Label_Small	FSerMix	642	145
+
+Vol			1			Font_Label_Small	Amp	787	77
+Pan			1			Font_Label_Small	Pan	839	77
+Coarse			1			Font_Label_Small	TuneCrs	960	77
+Tune			1			Font_Label_Small	Main	990	82
+Fine			1			Font_Label_Small	TuneFine 1017	77
+
+Glide			1			Font_Label_Small	Porto	986	179
+
+Rate			1			Font_Button_Label	Main	995	194
+Time			1			Font_Button_Label	Main	1030	194
+
+Mode			1			Font_Label_Small_Grey	Main	780	177
+Priority		1			Font_Label_Small_Grey	Main	780	211
+Num			1			Font_Label_Small_Grey	Main	877	177
+Up-Bend-Down		1			Font_Label_Small_Grey	Main	877	211
+
+All			1			Font_Button_Label	Main	866	132
+A			1			Font_Button_Label	Main	904	132
+B			1			Font_Button_Label	Main	924	132
+C			1			Font_Button_Label	Main	944	132
+D			1			Font_Button_Label	Main	963	132
+
+---------------------------------------------------------------------------------------

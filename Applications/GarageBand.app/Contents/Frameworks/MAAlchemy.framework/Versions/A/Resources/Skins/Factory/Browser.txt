@@ -1,0 +1,110 @@
+----------------------------------------------------------------------------------------------
+Bitmaps - complete list of bitmaps
+----------------------------------------------------------------------------------------------
+BITMAPS
+Browser
+BrowserEdit
+Star
+StarUnassigned
+Button_Search
+
+----------------------------------------------------------------------------------------------
+Fonts - bitmap name, num chars, char list, char widths
+----------------------------------------------------------------------------------------------
+FONTS
+
+----------------------------------------------------------------------------------------------
+True Type Fonts - name referring to png and txt file (in BMFont format)
+----------------------------------------------------------------------------------------------
+TRUETYPEFONTS
+
+----------------------------------------------------------------------------------------------
+Parameters - complete list of other required params eg. colours
+----------------------------------------------------------------------------------------------
+PARAMETERS
+BackgroundImage	0
+EditModeSizeIncrease 213
+EditModeListIncrease 214
+EditButtonShiftX 220
+EditButtonShiftY 214
+AltCommentsX1	117
+AltCommentsY1	630
+AltCommentsX2	493
+AltCommentsY2	670
+AltUserTagsX1	612
+AltUserTagsY1	630
+AltUserTagsX2	989
+AltUserTagsY2	670
+BackgroundR     24
+BackgroundG     33
+BackgroundB     41
+BackgroundA     255
+SelectR 0
+SelectG 163
+SelectB 204
+SelectA 255
+LineR 31
+LineG 41
+LineB 51
+LineA 255
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image			Page	x1	y1	x2	y2
+----------------------------------------------------------------------------------------------
+PAGES
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image				Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+CONTROLS
+GuiBrowserCategory	SelectList 		Background_Grey			Main	10	36	185	398	
+GuiBrowserSubCategory	SelectList 		Background_Grey			Main	200	36	375	396
+GuiBrowserTag1		SelectList 		Background_Grey			Main	390	36	565	396	
+GuiBrowserTag2		SelectList 		Background_Grey			Main	580	36	755	396		
+GuiBrowserTag3		SelectList 		Background_Grey			Main	770	36	945	396	
+GuiBrowserTag4		SelectList 		Background_Grey			Main	960	36	1135	396	
+
+GuiBrowserPresetList	PresetSelectList	Background_Black		Main	770	36	1148	396
+
+GuiBrowserTag1Select	BoldSelector 		Button_Dropdown_Bold		Main	390	11	175	
+GuiBrowserTag2Select	BoldSelector 		Button_Dropdown_Bold		Main	580	11	175	
+GuiBrowserTag3Select	BoldSelector 		Button_Dropdown_Bold		Main	770	11	175
+GuiBrowserTag4Select	BoldSelector 		Button_Dropdown_Bold		Main	960	11	175
+
+GuiBrowserRating	KickButton		Button_Transparent		Main	773	8
+GuiBrowserPreset	KickButton		Button_Transparent		Main	871	8
+GuiBrowserNumPresets	TextDisplay		Font_Display_Small		Main	1000	15	1120	30
+
+GuiBrowserSearchField	SearchEdit		Font_Display_Small		Main	930 	428	1075	450
+GuiBrowserCancelButton	KickButton		Button_Cancel            	Main	1076	426
+GuiBrowserSearchButton	KickButton		Button_Search_Light		Main	1095	427
+
+GuiBrowserComments	TextView		Font_Label_Section_Dark		Main	27 	423	523	466
+GuiBrowserTags		TextView		Font_Label_Section_Dark		Main	543 423	773	466
+
+
+GuiBrowserTagsMenu	ButtonMenu		Button_Large            Main	804	411
+GuiBrowserEdit		KickButton		Button_Large            Main	804	440
+
+----------------------------------------------------------------------------------------------
+String			Enabled			Font			Page	x1	y1		
+----------------------------------------------------------------------------------------------
+LABELS
+Category		1			Font_Display_Small	Main	68	15
+Subcategory		1			Font_Display_Small	Main	250	15
+
+_              	1			Font_Display_Small	Main	30	396
+Comments		1			Font_Display_Small	Main	28	410
+User_Tags		1			Font_Display_Small	Main	544	410
+
+Rating			1			Font_Display_Small	Main	777	15
+Preset			1			Font_Display_Small	Main	862	15
+
+Search			1			Font_Display_Small	Main	928	410
+
+User_Tags		1			Font_Button_Label	Main	816	414
+Edit			1			Font_Button_Label	Main	832	443
+
+Comments		1			Font_Display_Small	Main	42	634
+User_Tags		1			Font_Display_Small	Main	545	634
+---------------------------------------------------------------------------------------

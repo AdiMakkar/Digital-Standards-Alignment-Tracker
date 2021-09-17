@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>name</key>
+		<string>Create Fill</string>
+		<key>description</key>
+		<string>Creates Fill Patterns every BarInterval with Probability. Ranges for Length and Complexity can be specified (set any of those to -1 to disable that restriction)
+		</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputPatterns</key>
+		<dict>
+			<key>description</key>
+			<string>Vector of patterns</string>
+			<key>name</key>
+			<string>Patterns</string>
+		</dict>
+
+		<key>inputProbability</key>
+		<dict>
+			<key>description</key>
+			<string>Probability that fill is created (0 = never, 100 = always)</string>
+			<key>name</key>
+			<string>Probability %</string>
+		</dict>
+
+		<key>inputBarInterval</key>
+		<dict>
+			<key>description</key>
+			<string>Fills are created at end of these intervals (in bars)</string>
+			<key>name</key>
+			<string>BarInterval</string>
+		</dict>
+
+		<key>inputFillMinBeatLength</key>
+		<dict>
+			<key>description</key>
+			<string>Fills having this min length are matching (set to -1 to not specify a min)</string>
+			<key>name</key>
+			<string>FillMinBeatLength</string>
+		</dict>
+		<key>inputFillMaxBeatLength</key>
+		<dict>
+			<key>description</key>
+			<string>Fills having this max length are matching (could be the same as min, set to -1 to not specify a max)</string>
+			<key>name</key>
+			<string>FillMaxBeatLength</string>
+		</dict>
+		<key>inputNonMatchingLengthProbFactor</key>
+		<dict>
+			<key>description</key>
+			<string>Factor multiplied to prob for each 1.0 length mismatch for fills that don't match above length range. Set to -0.01 to reduce prob by 1% for each Quarter Length difference</string>
+			<key>name</key>
+			<string>NoMatch Length Fac</string>
+		</dict>
+
+		<key>inputFillMinCompl</key>
+		<dict>
+			<key>description</key>
+			<string>Fills having this min complexity are matching (set to -1 to not specify a min)</string>
+			<key>name</key>
+			<string>FillMinCompl</string>
+		</dict>
+		<key>inputFillMaxCompl</key>
+		<dict>
+			<key>description</key>
+			<string>Fills having this max complexity are matching (could be the same as min, set to -1 to not specify a max)</string>
+			<key>name</key>
+			<string>FillMaxCompl</string>
+		</dict>
+		<key>inputNonMatchingComplProbFactor</key>
+		<dict>
+			<key>description</key>
+			<string>Factor multiplied to prob for each 1.0 ComplInt mismatch for fills that don't match above ComplInt range. Set to -0.01 to reduce prob by 1% for each 1.0 Compl difference</string>
+			<key>name</key>
+			<string>NoMatch Compl Fkt</string>
+		</dict>
+
+
+		<key>inputFillBelowSongTempoPercent</key>
+		<dict>
+			<key>description</key>
+			<string>Fills having tempo higher than this percentage below songtempo (at generate pos) are matching, 100 (and not 1.0) means 100% above (set to -1 to not specify a min)</string>
+			<key>name</key>
+			<string>FillTempoBelow %</string>
+		</dict>
+		<key>inputFillAboveSongTempoPercent</key>
+		<dict>
+			<key>description</key>
+			<string>Fills having tempo lower than this percentage above songtempo (at generate pos) are matching, 100 (and not 1.0) means 100% below (set to -1 to not specify a max)</string>
+			<key>name</key>
+			<string>FillTempoAbove %</string>
+		</dict>
+		<key>inputNonMatchingTempoProbFactor</key>
+		<dict>
+			<key>description</key>
+			<string>Factor multiplied to prob for each 1.0 BPM mismatch for fills that don't match an above Tempo range. Set to -0.01 to reduce prob by 1% for each BPM difference</string>
+			<key>name</key>
+			<string>NoMatch Tempo Fkt</string>
+		</dict>
+
+
+
+		<key>inputRemainSilentIfNoFillWasMatching</key>
+		<dict>
+			<key>description</key>
+			<string>true: if no fill matches the filters module remains silent, false: if no fill matches the filters module will choose one from the non matching (having the prob resulting from several appliances of nonMatchingProbFactor for each filter)</string>
+			<key>name</key>
+			<string>SilentIfNoMatch</string>
+		</dict>
+
+		<key>inputKeepSystems</key>
+		<dict>
+			<key>description</key>
+			<string>true: systems are not muted during fill</string>
+			<key>name</key>
+			<string>Keep Systems</string>
+		</dict>
+
+		<key>inputKeepPerc</key>
+		<dict>
+			<key>description</key>
+			<string>true: percussion is not muted during fill</string>
+			<key>name</key>
+			<string>Keep Perc</string>
+		</dict>
+
+
+		<key>inputAddCrash1Active</key>
+		<dict>
+			<key>description</key>
+			<string>Activates adding a crash cymbal after AddCrash1AfterBeatLength</string>
+			<key>name</key>
+			<string>AddCrash1Active</string>
+		</dict>
+		<key>inputAddCrash1AfterBeatLength</key>
+		<dict>
+			<key>description</key>
+			<string>If AddCrash1Active: a crash cymbal is added at this beat length after end of fill (0 = immediately, 1 = after one beat).</string>
+			<key>name</key>
+			<string>AddCrash1AfterBeatLength</string>
+		</dict>
+		<key>inputAddCrash1InstTreePath</key>
+		<dict>
+			<key>description</key>
+			<string>InstTree Path for added crash 1, "Drums.Cr.pitch.1"</string>
+			<key>name</key>
+			<string>AddCrash1InstTreePath</string>
+		</dict>
+		<key>inputAddCrash1MinVel</key>
+		<dict>
+			<key>description</key>
+			<string>Minimal velocity for added crash 1</string>
+			<key>name</key>
+			<string>AddCrash1MinVel</string>
+		</dict>
+		<key>inputAddCrash1MaxVel</key>
+		<dict>
+			<key>description</key>
+			<string>Maximal velocity for added crash 1 (vel will be chosen randomly between min and max)</string>
+			<key>name</key>
+			<string>AddCrash1MaxVel</string>
+		</dict>
+
+		<key>inputTopProbFilterMinRequiredPatterns</key>
+		<dict>
+			<key>description</key>
+			<string>MinRequiredPatterns specifies how many patterns have to be found before the random choice is made.</string>
+			<key>name</key>
+			<string>Min Required Patterns</string>
+		</dict>
+		<key>inputTopProbFilterStepCount</key>
+		<dict>
+			<key>description</key>
+			<string>If the step count e.g. is 10, we have 10 probablity steps that will be searched to find the MinRequiredPatterns: 100, 90, 80, 70, 60, 50, 40, 30, 20, 10.</string>
+			<key>name</key>
+			<string>Step Count</string>
+		</dict>		
+
+
+
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputPatterns</key>
+		<dict>
+			<key>description</key>
+			<string>Vector of fill patterns</string>
+			<key>name</key>
+			<string>Patterns</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

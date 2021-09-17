@@ -1,0 +1,101 @@
+----------------------------------------------------------------------------------------------
+Bitmaps - complete list of bitmaps
+----------------------------------------------------------------------------------------------
+BITMAPS
+
+----------------------------------------------------------------------------------------------
+Fonts - bitmap name, num chars, char list, char widths
+----------------------------------------------------------------------------------------------
+FONTS
+
+----------------------------------------------------------------------------------------------
+True Type Fonts - name referring to png and txt file (in BMFont format)
+----------------------------------------------------------------------------------------------
+TRUETYPEFONTS
+
+----------------------------------------------------------------------------------------------
+Parameters - complete list of other required params eg. colours
+----------------------------------------------------------------------------------------------
+PARAMETERS
+FontSelectorWidth 8
+SelectorButtonWidth 24
+SelectorButtonWidthSmall 15
+RadioButSourceXSpace 50
+RadioButFilterXSpace 75
+EnvLineR 255
+EnvLineG 149
+EnvLineB 0
+EnvLineA 255
+SelLineR 169
+SelLineG 220
+SelLineB 246
+SelLineA 255
+SyncLineR 255
+SyncLineG 149
+SyncLineB 0
+SyncLineA 60
+WarpMarkR 70
+WarpMarkG 70
+WarpMarkB 70
+WarpMarkA 255
+XYLineR 184
+XYLineG 207
+XYLineB 254
+XYLineA 64
+XYBkgR 8
+XYBkgG 12
+XYBkgB 12
+BreakPointR 100
+BreakPointG 100
+BreakPointB 100
+BreakPointA 255
+SelBreakPointR 0
+SelBreakPointG 181
+SelBreakPointB 226
+SelBreakPointA 255
+TimeMarkerR 200
+TimeMarkerG 200
+TimeMarkerB 200
+TimeMarkerA 255
+EnvEditorBorderLeft 1
+EnvEditorBorderRight 1
+EnvEditorBorderTop 1
+EnvEditorBorderBottom 1
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image			Page	x1	y1	x2	y2
+----------------------------------------------------------------------------------------------
+PAGES
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image			Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+CONTROLS
+
+MsgTrig			Selector		Button_Dropdown		Main	15	43	65
+MsgSync			OnButton		Button_Medium		Main	89	43
+
+MsgSnap			ScrollSelector		Button_Dropdown		Main	15	80 	125
+
+MsgLoop			Selector		Button_Dropdown		Main	15	118	125
+MsgMode			Selector		Button_Dropdown		Main	15	156	125
+
+GuiMsegEditor		EnvelopeEditor		Background_Black	Main	175	6	776	180
+MsgCur			ScrollSelector		Button_Dropdown		Main	15	6	65
+GuiModMsgFile		ButtonMenu		Button_Medium		Main	89	6	
+
+----------------------------------------------------------------------------------------------
+String			Enabled			Font			Page	x1	y1	
+----------------------------------------------------------------------------------------------
+LABELS
+Current			1		Font_Label_Small_Grey	Main	15	27
+Trigger			1		Font_Label_Small_Grey	Main	15	64
+
+Snap_Y			1		Font_Label_Small_Grey	Main	15	101
+Loop_Mode		1		Font_Label_Small_Grey	Main	15	139
+Edit_Mode		1		Font_Label_Small_Grey	Main	15	177
+
+File			1		Font_Button_Label	Main	105	9
+Sync			1		Font_Button_Label	Main	102	46
+
+---------------------------------------------------------------------------------------

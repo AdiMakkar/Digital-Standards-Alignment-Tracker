@@ -1,0 +1,63 @@
+----------------------------------------------------------------------------------------------
+Bitmaps - complete list of bitmaps
+----------------------------------------------------------------------------------------------
+BITMAPS
+Source_Granular
+
+----------------------------------------------------------------------------------------------
+Fonts - bitmap name, num chars, char list, char widths
+----------------------------------------------------------------------------------------------
+FONTS
+
+----------------------------------------------------------------------------------------------
+True Type Fonts - name referring to png and txt file (in BMFont format)
+----------------------------------------------------------------------------------------------
+TRUETYPEFONTS
+
+----------------------------------------------------------------------------------------------
+Parameters - complete list of other required params eg. colours
+----------------------------------------------------------------------------------------------
+PARAMETERS
+BackgroundImage	0
+FontSelectorWidth 8
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image			Page	x1	y1	x2	y2
+----------------------------------------------------------------------------------------------
+PAGES
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image		Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+CONTROLS
+
+SGrOn			OnButton	Button_Small		Main	15	24
+SGrVol			Knob		Knob_45x45px_2c_0-100	Main	70	10
+SGrSize			Knob		Knob_45x45px_2c_0-100	Main	130	10
+SGrDens			Knob		Knob_45x45px_2c_0-100	Main	190	10
+SGrRTim			Knob		Knob_45x45px_2c_0-100	Main	250	10
+SGrRPan			Knob		Knob_45x45px_2c_0-100	Main	310	10
+
+SGrTaps			Knob		Knob_45x45px_2c_0-100	Main	70	100
+SGrSpac			Knob		Knob_45x45px_2c_0-100	Main	140	100
+SGrStOf			Knob		Knob_45x45px_2c_0-100	Main	210	100
+SGrWind			FileSelector	Button_Dropdown		Main	285	115	100
+
+----------------------------------------------------------------------------------------------
+String			Enabled			Font			Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+LABELS
+On			1			Font_Button_Label	Main	20	27
+Vol			1			Font_Label_Small	SGrVol	65	58
+Size			1			Font_Label_Small	SGrSize	114	58
+Density			1			Font_Label_Small	SGrDens	155	58
+RTime			1			Font_Label_Small	SGrRTim	305	58
+RPan			1			Font_Label_Small	SGrRPan	357	58
+
+Grain_Shape		1			Font_Label_Small_Grey	Main	285	136
+
+Num_Taps		1			Font_Label_Small	SGrTaps	152	145
+Tap_Spacing		1			Font_Label_Small	SGrSpac	225	145
+Stereo_Offset		1			Font_Label_Small	SGrStOf	297	145
+
+---------------------------------------------------------------------------------------

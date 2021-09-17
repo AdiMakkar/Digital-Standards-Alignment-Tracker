@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>name</key>
+		<string>Random Pattern Picker</string>
+		<key>description</key>
+		<string>Choose one pattern from vector of input patterns. Threshold: choose from the top 'threshold' patterns. E.g. if threshold is 5 and we have patterns with 100,100,80,40,60,40,75 probability to choose from, the patterns with 100,100,80,75,60 will be considered.</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputPatterns</key>
+		<dict>
+			<key>description</key>
+			<string>vector of patterns</string>
+			<key>name</key>
+			<string>Patterns</string>
+		</dict>
+		<key>inputThreshold</key>
+		<dict>
+			<key>description</key>
+			<string>Choose from the top 'threshold' patterns. e.g. if threshold is 5 and we have patterns with 100,100,80,40,60,40,75 probability to choose from, the patterns with 100,100,80,75,60 will be considered.</string>
+			<key>name</key>
+			<string>Threshold</string>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputPatterns</key>
+		<dict>
+			<key>description</key>
+			<string>vector of patterns</string>
+			<key>name</key>
+			<string>Patterns</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

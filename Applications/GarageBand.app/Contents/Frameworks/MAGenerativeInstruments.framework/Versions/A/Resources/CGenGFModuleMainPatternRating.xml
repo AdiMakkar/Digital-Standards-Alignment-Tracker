@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>name</key>
+		<string>Main Pattern Rating</string>
+		<key>description</key>
+		<string>Patterns expects a vector of AddOn Patterns. The Main Pattern Rating is determined in combination with the PatternFamily Name and written as a probability into the AddOn pattern vector.</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputPatterns</key>
+		<dict>
+			<key>description</key>
+			<string>vector of patterns</string>
+			<key>name</key>
+			<string>Patterns</string>
+		</dict>
+		<key>inputFamilyName</key>
+		<dict>
+			<key>description</key>
+			<string>pattern family name</string>
+			<key>name</key>
+			<string>Family Name</string>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputPatterns</key>
+		<dict>
+			<key>description</key>
+			<string>vector of patterns</string>
+			<key>name</key>
+			<string>Patterns</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

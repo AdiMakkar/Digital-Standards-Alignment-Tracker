@@ -1,0 +1,10 @@
+
+<lfo>
+LfoTrig = 1
+LfoBiPol = 1
+LfoShape = Alchemy/Libraries/WaveLfo/Basic/Sine.raw
+LfoSync = 1
+LfoRate = 0.125
+LfoDelay = 0.000
+LfoAttck = 0.000
+LfoPhase = 0.000

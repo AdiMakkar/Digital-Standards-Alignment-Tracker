@@ -1,0 +1,10 @@
+
+<lfo>
+LfoTrig = 1
+LfoBiPol = 0
+LfoShape = Alchemy/Libraries/WaveLfo/Basic/Ramp Up.raw
+LfoSync = 1
+LfoRate = 0.140
+LfoDelay = 0.000
+LfoAttck = 0.000
+LfoPhase = 0.000

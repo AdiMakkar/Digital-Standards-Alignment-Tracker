@@ -1,0 +1,102 @@
+----------------------------------------------------------------------------------------------
+Bitmaps - complete list of bitmaps
+----------------------------------------------------------------------------------------------
+BITMAPS
+
+----------------------------------------------------------------------------------------------
+Fonts - bitmap name, num chars, char list, char widths
+----------------------------------------------------------------------------------------------
+FONTS
+
+----------------------------------------------------------------------------------------------
+True Type Fonts - name referring to png and txt file (in BMFont format)
+----------------------------------------------------------------------------------------------
+TRUETYPEFONTS
+
+----------------------------------------------------------------------------------------------
+Parameters - complete list of other required params eg. colours
+----------------------------------------------------------------------------------------------
+PARAMETERS
+FontSelectorWidth 8
+SelectorButtonWidth 24
+SelectorButtonWidthSmall 15
+RadioButSourceXSpace 50
+RadioButFilterXSpace 75
+EnvLineR 255
+EnvLineG 149
+EnvLineB 0
+EnvLineA 255
+SelLineR 169
+SelLineG 220
+SelLineB 246
+SelLineA 255
+SelBreakPointR 0
+SelBreakPointG 181
+SelBreakPointB 226
+SelBreakPointA 255
+SyncLineR 255
+SyncLineG 149
+SyncLineB 0
+SyncLineA 60
+WarpMarkR 115
+WarpMarkG 166
+WarpMarkB 192
+WarpMarkA 255
+XYLineR 184
+XYLineG 207
+XYLineB 254
+XYLineA 60
+XYBkgR 8
+XYBkgG 12
+XYBkgB 12
+TimeMarkerR 200
+TimeMarkerG 200
+TimeMarkerB 200
+TimeMarkerA 255
+EnvEditorBorderLeft 1
+EnvEditorBorderRight 1
+EnvEditorBorderTop 1
+EnvEditorBorderBottom 1
+
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image			Page	x1	y1	x2	y2
+----------------------------------------------------------------------------------------------
+PAGES
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image				Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+CONTROLS
+AhdAttck		Knob			Knob_45x45px_2c_0-100		Main	170	129	
+AhdHold			Knob			Knob_45x45px_2c_0-100		Main	220	129
+AhdDecay		Knob			Knob_45x45px_2c_0-100		Main	270	129
+AhdSustn		Knob			Knob_45x45px_2c_0-100		Main	320	129
+AhdRelse		Knob			Knob_45x45px_2c_0-100		Main	370	129
+
+AhdTrig			Selector		Button_Dropdown		Main	15	43	65
+AhdSync			OnButton		Button_Medium			Main	89	43
+
+GuiModAhdFile		ButtonMenu		Button_Medium			Main	89	6	
+
+AhdCur			ScrollSelector		Button_Dropdown			Main	15	6	65
+
+GuiAhdEditor		AHDSREnvelopeEditor	Background_Black		Main	175	6	776	125
+
+----------------------------------------------------------------------------------------------
+String			Enabled			Font			Page	x1	y1
+----------------------------------------------------------------------------------------------
+LABELS
+Current			1		Font_Label_Small_Grey	Main	15	27
+Trigger			1		Font_Label_Small_Grey	Main	15	64
+
+File			1		Font_Button_Label	Main	105	9
+Sync			1		Font_Button_Label	Main	102	46
+
+Attack			1		Font_Label_Small	AhdAttck	228	176
+Hold			1		Font_Label_Small	AhdHold	284	176
+Decay			1		Font_Label_Small	AhdDecay	331	176
+Sustain			1		Font_Label_Small	AhdSustn	377	176
+Release			1		Font_Label_Small	AhdRelse	427	176
+
+---------------------------------------------------------------------------------------

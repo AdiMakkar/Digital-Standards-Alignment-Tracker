@@ -1,0 +1,145 @@
+----------------------------------------------------------------------------------------------
+Bitmaps - complete list of bitmaps
+----------------------------------------------------------------------------------------------
+BITMAPS
+Source_Additive
+
+----------------------------------------------------------------------------------------------
+Fonts - bitmap name, num chars, char list, char widths
+----------------------------------------------------------------------------------------------
+FONTS
+
+----------------------------------------------------------------------------------------------
+True Type Fonts - name referring to png and txt file (in BMFont format)
+----------------------------------------------------------------------------------------------
+TRUETYPEFONTS
+
+----------------------------------------------------------------------------------------------
+Parameters - complete list of other required params eg. colours
+----------------------------------------------------------------------------------------------
+PARAMETERS
+BackgroundImage	0
+FontSelectorWidth 8
+EnvLineR 112
+EnvLineG 163
+EnvLineB 189
+EnvLineA 255
+SelLineR 169
+SelLineG 220
+SelLineB 246
+SelLineA 255
+ActParR 32
+ActParG 44
+ActParB 48
+ActParA 255
+
+SyncLineR 100
+SyncLineG 100
+SyncLineB 255
+SyncLineA 255
+
+WarpMarkR 169
+WarpMarkG 220
+WarpMarkB 246
+WarpMarkA 255
+
+LoopMarkR 255
+LoopMarkG 255
+LoopMarkB 255
+LoopMarkA 255
+
+BreakPointR 100
+BreakPointG 100
+BreakPointB 100
+BreakPointA 255
+
+SelBreakPointR 255
+SelBreakPointG 255
+SelBreakPointB 255
+SelBreakPointA 255
+
+TimeMarkerR 154
+TimeMarkerG 191
+TimeMarkerB 229
+TimeMarkerA 255
+
+EnvEditorBorderLeft 1
+EnvEditorBorderRight 1
+EnvEditorBorderTop 2
+EnvEditorBorderBottom 1
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image			Page	x1	y1	x2	y2
+----------------------------------------------------------------------------------------------
+PAGES
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType			Image			Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+CONTROLS
+
+SAdOn			OnButton		Button_Small		Main	15	15
+
+SAdVol			Knob			Knob_45x45px_2c_0-100	Main	56	0
+SAdNOsc			Knob			Knob_45x45px_2c_0-100	Main	130 	0
+SAdPVar			Knob			Knob_45x45px_2c_0-100	Main	180	0	
+
+SAdSym			Knob			Knob_45x45px_2c_0-100	Main	230  	0
+SAdShpe			FileSelector		Button_Dropdown		Main	286	32	121
+
+SAdShMd			RadioButton		Button_Group_Medium_C	Main	286 	8	450	2
+
+SAdE1On			OnButton		Button_Small			Main	15	68
+SAdE2On			OnButton		Button_Small			Main	151	68
+SAdE3On			OnButton		Button_Small			Main	287	68
+
+SAdEfT1			Selector		Button_Dropdown			Main	43	68	90
+SAdEfT2			Selector		Button_Dropdown			Main	179	68	90
+SAdEfT3			Selector		Button_Dropdown			Main	315	68	90
+
+SAdEP1			KnobSmall		Knob_32x32px_2c_0-100		Main	23	90
+SAdEP2			KnobSmall		Knob_32x32px_2c_0-100		Main	83	90
+SAdEP3			KnobSmall		Knob_32x32px_2c_0-100		Main	23	136
+SAdEP4			KnobSmall		Knob_32x32px_2c_0-100		Main	83	136
+
+SAdEP5			KnobSmall		Knob_32x32px_2c_0-100		Main	159	90
+SAdEP6			KnobSmall		Knob_32x32px_2c_0-100		Main	219	90
+SAdEP7			KnobSmall		Knob_32x32px_2c_0-100		Main	159	136
+SAdEP8			KnobSmall		Knob_32x32px_2c_0-100		Main	219	136
+
+SAdEP9			KnobSmall		Knob_32x32px_2c_0-100		Main	295	90
+SAdEP10			KnobSmall		Knob_32x32px_2c_0-100		Main	355	90
+SAdEP11			KnobSmall		Knob_32x32px_2c_0-100		Main	295	136
+SAdEP12			KnobSmall		Knob_32x32px_2c_0-100		Main	355	136
+
+
+----------------------------------------------------------------------------------------------
+String			Enabled			Font			Page	x1	y1	
+----------------------------------------------------------------------------------------------
+LABELS
+_			1			Font_Label_Small	SAdEP1	0	0
+_			1			Font_Label_Small	SAdEP2	0	0
+_			1			Font_Label_Small	SAdEP3	0	0
+_			1			Font_Label_Small	SAdEP4	0	0
+_			1			Font_Label_Small	SAdEP5	0	0
+_			1			Font_Label_Small	SAdEP6	0	0
+_			1			Font_Label_Small	SAdEP7	0	0
+_			1			Font_Label_Small	SAdEP8	0	0
+_			1			Font_Label_Small	SAdEP9	0	0
+_			1			Font_Label_Small	SAdEP10	0	0
+_			1			Font_Label_Small	SAdEP11	0	0
+_			1			Font_Label_Small	SAdEP12	0	0
+
+On			1			Font_Button_Label	Main	20	18
+Vol			1			Font_Label_Small	SAdVol	60	49
+Num_Partials		1			Font_Label_Small	SAdNOsc	317	49
+PVar			1			Font_Label_Small	SAdPVar	347	76
+Sym			1			Font_Label_Small	SAdSym	270	49
+
+On			1			Font_Button_Label	Main	20	71
+On			1			Font_Button_Label	Main	156	71
+On			1			Font_Button_Label	Main	292	71
+
+Sine			1			Font_Button_Label	Main	304	11
+Complex			1			Font_Button_Label	Main	353	11
+----------------------------------------------------------------------------------------------

@@ -1,0 +1,12 @@
+EffectRack = 0
+EffectSlot = 0
+EffectType = 2
+ExtraData = n/a
+AutomatableParams = 6
+NonAutomatableParams = 0
+RevSize = 0.8628
+RevMix = 0.1260
+RevDamp = 0.1588
+RevDelay = 0.1427
+RevLoCut = 0.3807
+RevHiCut = 0.8390

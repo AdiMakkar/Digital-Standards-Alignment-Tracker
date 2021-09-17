@@ -1,0 +1,83 @@
+----------------------------------------------------------------------------------------------
+Bitmaps - complete list of bitmaps
+----------------------------------------------------------------------------------------------
+BITMAPS
+Mod
+Button_MOD
+Button_Tiny_Back
+
+----------------------------------------------------------------------------------------------
+Fonts - bitmap name, num chars, char list, char widths
+----------------------------------------------------------------------------------------------
+FONTS
+
+----------------------------------------------------------------------------------------------
+True Type Fonts - name referring to png and txt file (in BMFont format)
+----------------------------------------------------------------------------------------------
+TRUETYPEFONTS
+
+----------------------------------------------------------------------------------------------
+Parameters - complete list of other required params eg. colours
+----------------------------------------------------------------------------------------------
+PARAMETERS
+BackgroundImage	0
+EnvLineR 20
+EnvLineG 20
+EnvLineB 255
+EnvLineA 255
+SelLineR 200
+SelLineG 200
+SelLineB 255
+SelLineA 255
+SyncLineR 100
+SyncLineG 100
+SyncLineB 255
+SyncLineA 255
+WarpMarkR 50
+WarpMarkG 255
+WarpMarkB 50
+WarpMarkA 255
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image			Page	x1	y1	x2	y2
+----------------------------------------------------------------------------------------------
+PAGES
+LFOPage			SkinnableView		Mod_LFO.txt		Main	355	38	1140	236
+EnvADHSRPage		SkinnableView		Mod_AHDSR.txt		Main	355	38	1140	236
+MSEGPage		SkinnableView		Mod_MSEG.txt		Main	355	38	1140	236
+SequencerPage		SkinnableView		Mod_Sequencer.txt	Main	355	38	1140	236
+EnvFollowPage		SkinnableView		Mod_EnvFollow.txt	Main	355	38	1140	236
+ModMapPage		SkinnableView		Mod_ModMap.txt		Main	355	38	1140	236
+XYMsegModPage		SkinnableView		Mod_XY-MSEG.txt		Main	355	38	1140	236
+ModRack			ScrollingView		Mod_Rack.txt		Main	15	71	340	232
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image				Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+CONTROLS
+
+GuiModCur		RadioButton3		Button_MOD	 		Main	355	0	953	6
+GuiModTarget	Selector		Button_Dropdown		Main	63	45	179
+
+ModSmoth		KnobNoMod		Knob_32x32px_1c_0-100		Main	287	35
+
+GuiCurModTargets		ButtonMenu		Button_Large			Main	1052	10
+GuiModBack		KickButton		Button_Tiny_Back		Main	319	9
+
+----------------------------------------------------------------------------------------------
+String			Enabled			Font		Page	x1	y1
+----------------------------------------------------------------------------------------------
+LABELS
+Show_Targets    1    Font_Button_Label  Main  1056  13
+MODULATION		1		Font_Label_Section	Main	14	12
+Target			1		Font_Label_Small_Grey	Main	25	49
+Smooth			2		Font_Label_Small	ModSmoth 249	49
+
+LFO            		1		Font_Button_Label	Main	392	8
+AHDSR			1		Font_Button_Label	Main	484	8
+MSEG			1		Font_Button_Label	Main	587	8
+SEQUENCER		1		Font_Button_Label	Main	667	8
+ENV_FOLLOWER		1		Font_Button_Label	Main	758	8
+MODMAP			1		Font_Button_Label	Main	876	8
+
+---------------------------------------------------------------------------------------

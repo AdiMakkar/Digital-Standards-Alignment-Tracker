@@ -1,0 +1,97 @@
+----------------------------------------------------------------------------------------------
+Bitmaps - complete list of bitmaps
+----------------------------------------------------------------------------------------------
+BITMAPS
+Effects
+
+Button_EFFECT-GROUP1
+Button_EFFECT-GROUP2
+Button_EFFECT-GROUP3
+Button_EFFECT-GROUP4
+Button_EFFECT-GROUP5
+
+----------------------------------------------------------------------------------------------
+Fonts - bitmap name, num chars, char list, char widths
+----------------------------------------------------------------------------------------------
+FONTS
+
+----------------------------------------------------------------------------------------------
+True Type Fonts - name referring to png and txt file (in BMFont format)
+----------------------------------------------------------------------------------------------
+TRUETYPEFONTS
+
+----------------------------------------------------------------------------------------------
+Parameters - complete list of other required params eg. colours
+----------------------------------------------------------------------------------------------
+PARAMETERS
+BackgroundImage	0
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType			Image			Page	x1	y1	x2	y2
+----------------------------------------------------------------------------------------------
+PAGES
+DelayPage		SkinnableView 		Effects_Delay.txt		NoAdd	0	0	628	188
+CamelVerbPage		SkinnableView 		Effects_CamelVerb.txt		NoAdd	0	0	201	188
+ModFXPage		SkinnableView 		Effects_ModFX.txt		NoAdd	0	0	191	188
+DistPage		SkinnableView 		Effects_Distortion.txt		NoAdd	0	0	191	188
+MMFilterPage		SkinnableView 		Effects_MMFilter.txt		NoAdd	0	0	215	188
+BPFilterPage		SkinnableView 		Effects_BPFilter.txt		NoAdd	0	0	150	188
+CompPage		SkinnableView 		Effects_Compressor.txt		NoAdd	0	0	155	188
+MagicEQPage		SkinnableView 		Effects_MagicEQ.txt		NoAdd	0	0	155	188
+PannerPage		SkinnableView 		Effects_Pan.txt			NoAdd	0	0	95	188
+AmpPage			SkinnableView 		Effects_Amp.txt			NoAdd	0	0	95	188
+AVerbPage		SkinnableView 		Effects_AcousticReverb.txt	NoAdd	0	0	640	188
+ThreeBandEQ		SkinnableView 		Effects_ThreeBandEQ.txt		NoAdd	0	0	193	188
+BandReject		SkinnableView 		Effects_BPReject.txt		NoAdd	0	0	115	188
+PhaserPage		SkinnableView 		Effects_Phaser.txt		NoAdd	0	0	260	188
+ConvolutionReverbPage	SkinnableView 		Effects_ConvolutionReverb.txt	NoAdd	0	0	800	188
+CompressorPowerPage	SkinnableView 		Effects_CompressorPower.txt	NoAdd	0	0	260	188
+WaveshaperPage		SkinnableView 		Effects_Waveshaper.txt		NoAdd	0	0	445	188
+
+EffectsSlots	SkinnableView		EffectsSlotsMain.txt			NoAdd	0	0	200	432
+EffectsSlots	SkinnableView		EffectsSlots1.txt			NoAdd	0	0	200	432
+EffectsSlots	SkinnableView		EffectsSlots2.txt			NoAdd	0	0	200	432
+EffectsSlots	SkinnableView		EffectsSlots3.txt			NoAdd	0	0	200	432
+EffectsSlots	SkinnableView		EffectsSlots4.txt			NoAdd	0	0	200	432
+
+MasterSendPageA	SkinnableView		Effects_MasterSendA.txt			NoAdd	0	0	86	188
+MasterSendPageB	SkinnableView		Effects_MasterSendB.txt			NoAdd	0	0	86	188
+MasterSendPageC	SkinnableView		Effects_MasterSendC.txt			NoAdd	0	0	86	188
+MasterSendPageD	SkinnableView		Effects_MasterSendD.txt			NoAdd	0	0	86	188
+
+----------------------------------------------------------------------------------------------
+ControlName		ControlType		Image			Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+CONTROLS
+GuiEffectFile		ButtonMenu		Button_Medium		Main	156	15
+
+GuiEffectsRackMain	EffectsRack		Background_Grey		Main	235	6	1068	210
+GuiEffectsRack1		EffectsRack		Background_Grey		Main	235	6	1068	210
+GuiEffectsRack2		EffectsRack		Background_Grey		Main	235	6	1068	210
+GuiEffectsRack3		EffectsRack		Background_Grey		Main	235	6	1068	210
+GuiEffectsRack4		EffectsRack		Background_Grey		Main	235	6	1068	210
+	
+GuiEffectsSlotsMain	EffectsSlots	Background_Grey			Main	15	50	210	187
+GuiEffectsSlots1	EffectsSlots	Background_Grey			Main	15	50	210	187
+GuiEffectsSlots2	EffectsSlots	Background_Grey			Main	15	50	210	187
+GuiEffectsSlots3	EffectsSlots	Background_Grey			Main	15	50	210	187
+GuiEffectsSlots4	EffectsSlots	Background_Grey			Main	15	50	210	187
+
+GuiEffectRackShown	RadioButton3		Button_EFFECT-GROUP1	Main	15 	15	141	 5
+
+----------------------------------------------------------------------------------------------
+String			Enabled			Font			Page	x1	y1	
+----------------------------------------------------------------------------------------------
+LABELS
+Main			1			Font_Button_Label	Main	24	18
+A			1			Font_Button_Label	Main	66	18
+B			1			Font_Button_Label	Main	86	18
+C			1			Font_Button_Label	Main	106	18
+D			1			Font_Button_Label	Main	125	18
+
+
+File			1			Font_Button_Label	Main	172	18
+
+
+----------------------------------------------------------------------------------------------
+
